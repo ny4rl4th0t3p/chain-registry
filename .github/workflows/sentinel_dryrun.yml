@@ -1,0 +1,25 @@
+# .github/workflows/sentinel.yml
+name: sentinel
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sentinel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@main
+        with:
+          registry: .
+          chains: cosmoshub,osmosis,juno,celestia,neutron
+          state-branch: sentinel-state
+          min-failures: 3
+          pr-cooldown-days: 1
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          dry-run: true
