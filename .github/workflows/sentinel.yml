@@ -21,4 +21,5 @@ jobs:
           state-branch: sentinel-state
           min-failures: 3
           pr-cooldown-days: 1
+          max-new-prs: 20
           github-token: ${{ secrets.GITHUB_TOKEN }}
