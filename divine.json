@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "divine-1",
-  "updated_at": "2026-05-18T19:30:41.541209162Z",
+  "updated_at": "2026-05-18T19:35:31.627148406Z",
   "last_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
     "grpc_liveness|grpc-mainnet-node2.divineray.ca:443": {
@@ -9,7 +9,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc-mainnet-node3.divineray.ca:443": {
@@ -17,7 +17,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc-mainnet.divineray.ca:443": {
@@ -25,56 +25,56 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-mainnet-node2.divineray.ca:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rest-mainnet-node2.divineray.ca:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-mainnet-node2.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:36718-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "Get \"https://rest-mainnet-node2.divineray.ca:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-mainnet-node2.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:36718-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
-      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-mainnet-node3.divineray.ca:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rest-mainnet-node3.divineray.ca:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-mainnet-node3.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:39267-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "Get \"https://rest-mainnet-node3.divineray.ca:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-mainnet-node3.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:39267-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
-      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-mainnet.divineray.ca:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rest-mainnet.divineray.ca:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-mainnet.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:37113-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "Get \"https://rest-mainnet.divineray.ca:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-mainnet.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:37113-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
-      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-mainnet-node2.divineray.ca:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rpc-mainnet-node2.divineray.ca:443/status\": dial tcp: lookup rpc-mainnet-node2.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:34223-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "Get \"https://rpc-mainnet-node2.divineray.ca:443/status\": dial tcp: lookup rpc-mainnet-node2.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:34223-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
-      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-mainnet-node3.divineray.ca:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rpc-mainnet-node3.divineray.ca:443/status\": dial tcp: lookup rpc-mainnet-node3.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:39216-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "Get \"https://rpc-mainnet-node3.divineray.ca:443/status\": dial tcp: lookup rpc-mainnet-node3.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:39216-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
-      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-mainnet.divineray.ca:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rpc-mainnet.divineray.ca:443/status\": dial tcp: lookup rpc-mainnet.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:57903-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "Get \"https://rpc-mainnet.divineray.ca:443/status\": dial tcp: lookup rpc-mainnet.divineray.ca on 168.63.129.16:53: read udp 172.17.0.2:57903-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
-      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "first_failure_time": "0001-01-01T00:00:00Z"
     }
   }
 }

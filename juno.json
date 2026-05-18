@@ -1,15 +1,15 @@
 {
   "version": 1,
   "chain_id": "juno-1",
-  "updated_at": "2026-05-18T19:30:41.541209162Z",
+  "updated_at": "2026-05-18T19:35:31.627148406Z",
   "last_pr_opened_at": "2026-05-18T18:52:45.97347081Z",
   "endpoints": {
     "grpc_liveness|grpc-juno-01.stakeflow.io:2302": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.juno.validatus.com:443": {
@@ -17,15 +17,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|juno-grpc.chainroot.io:443": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|juno-grpc.cogwheel.zone:443": {
@@ -33,7 +33,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|juno-grpc.polkachu.com:12690": {
@@ -41,15 +41,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|juno-grpc.publicnode.com:443": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/juno/host",
       "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/juno/host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|juno-grpc.stakeandrelax.net:12690": {
@@ -57,15 +57,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|juno.grpc.kleomedes.network": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = unexpected HTTP status code received from server: 200 (OK); malformed header: missing HTTP content-type",
       "first_evidence": "rpc error: code = Unknown desc = unexpected HTTP status code received from server: 200 (OK); malformed header: missing HTTP content-type",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|juno.grpc.m.stavr.tech:443": {
@@ -73,23 +73,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|juno.lavenderfive.com:443": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api-juno-01.stakeflow.io": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://api-juno-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-juno-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-juno-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-juno-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api.juno.validatus.com": {
@@ -97,15 +97,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno-api.chainroot.io": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://juno-api.chainroot.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup juno-api.chainroot.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://juno-api.chainroot.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup juno-api.chainroot.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://juno-api.cogwheel.zone": {
@@ -113,7 +113,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno-api.kleomedes.network": {
@@ -121,7 +121,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno-api.polkachu.com": {
@@ -129,15 +129,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno-api.stake-town.com": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
-      "last_evidence": "Get \"https://juno-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: TLS handshake timeout",
+      "last_evidence": "Get \"https://juno-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
       "first_evidence": "Get \"https://juno-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://juno-api.stakeandrelax.net": {
@@ -145,7 +145,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno-rest.publicnode.com": {
@@ -153,7 +153,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno.api.m.stavr.tech": {
@@ -161,7 +161,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno.api.pocket.network": {
@@ -169,31 +169,31 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://juno.declab.pro:443": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://juno.declab.pro:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup juno.declab.pro on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://juno.declab.pro:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup juno.declab.pro on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/juno": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://juno-rpc.chainroot.io": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://juno-rpc.chainroot.io/status\": dial tcp: lookup juno-rpc.chainroot.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://juno-rpc.chainroot.io/status\": dial tcp: lookup juno-rpc.chainroot.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://juno-rpc.cogwheel.zone": {
@@ -201,7 +201,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://juno-rpc.kleomedes.network": {
@@ -209,7 +209,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://juno-rpc.polkachu.com": {
@@ -217,7 +217,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://juno-rpc.publicnode.com:443": {
@@ -225,15 +225,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://juno-rpc.stake-town.com": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://juno-rpc.stake-town.com/status\": net/http: TLS handshake timeout",
       "first_evidence": "Get \"https://juno-rpc.stake-town.com/status\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://juno-rpc.stakeandrelax.net": {
@@ -241,7 +241,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://juno.api.pocket.network": {
@@ -249,15 +249,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://juno.declab.pro:26610": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://juno.declab.pro:26610/status\": dial tcp: lookup juno.declab.pro on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://juno.declab.pro:26610/status\": dial tcp: lookup juno.declab.pro on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://juno.rpc.m.stavr.tech": {
@@ -265,23 +265,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-juno-01.stakeflow.io": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-juno-01.stakeflow.io/status\": dial tcp: lookup rpc-juno-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-juno-01.stakeflow.io/status\": dial tcp: lookup rpc-juno-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-juno.itastakers.com": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-juno.itastakers.com/status\": dial tcp: lookup rpc-juno.itastakers.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-juno.itastakers.com/status\": dial tcp: lookup rpc-juno.itastakers.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.juno.validatus.com": {
@@ -289,15 +289,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/juno": {
-      "consecutive_failures": 7,
+      "consecutive_failures": 8,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     }
   }

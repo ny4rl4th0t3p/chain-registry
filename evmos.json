@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "evmos_9001-2",
-  "updated_at": "2026-05-18T19:30:41.541209162Z",
+  "updated_at": "2026-05-18T19:35:31.627148406Z",
   "last_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
     "grpc_liveness|evmos-grpc.polkachu.com:13490": {
@@ -9,143 +9,143 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|evmos-grpc.publicnode.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/evmos/host",
       "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/evmos/host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|evmos-grpc.w3coins.io:13490": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|evmos-mainnet-grpc.autostake.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|evmos-mainnet.grpc.stakevillage.net:16990": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|evmos.grpc.liveraven.net:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|evmos.lavenderfive.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc-evmos-01.stakeflow.io:1702": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc-evmos-ia.cosmosia.notional.ventures:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc-evmos.cosmos-spaces.cloud:1190": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc-evmos.mms.team:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc.bd.evmos.org:9090": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|https://evmos-grpc.antrixy.org/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|https://evmos-grpc.theamsolutions.info ": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "parse \"https://evmos-grpc.theamsolutions.info \": parse \"https://evmos-grpc.theamsolutions.info \": invalid character \" \" in host name",
       "first_evidence": "parse \"https://evmos-grpc.theamsolutions.info \": parse \"https://evmos-grpc.theamsolutions.info \": invalid character \" \" in host name",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|https://grpc.evmos.bronbro.io:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://api-evmos-01.stakeflow.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-evmos-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-evmos-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-evmos-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-evmos-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://api-evmos-ia.cosmosia.notional.ventures/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-evmos-ia.cosmosia.notional.ventures/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-evmos-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-evmos-ia.cosmosia.notional.ventures/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-evmos-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://api.evmos.silentvalidator.com/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api.evmos.silentvalidator.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.evmos.silentvalidator.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api.evmos.silentvalidator.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.evmos.silentvalidator.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos-api.polkachu.com": {
@@ -153,47 +153,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://evmos-api.theamsolutions.info": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "decode: invalid character '\u003c' looking for beginning of value",
       "first_evidence": "decode: invalid character '\u003c' looking for beginning of value",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos-api.validatrium.club": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-api.validatrium.club/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-api.validatrium.club on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-api.validatrium.club/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-api.validatrium.club on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos-api.w3coins.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-api.w3coins.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-api.w3coins.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-api.w3coins.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-api.w3coins.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos-mainnet.api.stakevillage.net": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-mainnet.api.stakevillage.net/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-mainnet.api.stakevillage.net on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-mainnet.api.stakevillage.net/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-mainnet.api.stakevillage.net on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos-rest.antrixy.org/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-rest.antrixy.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-rest.antrixy.org on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-rest.antrixy.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos-rest.antrixy.org on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos-rest.publicnode.com": {
@@ -201,79 +201,79 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://evmos.api.liveraven.net": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos.api.liveraven.net/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos.api.liveraven.net on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos.api.liveraven.net/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup evmos.api.liveraven.net on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://evmos.rest.stakin-nodes.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://lcd-evmos.validavia.me": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://lcd-evmos.validavia.me/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup lcd-evmos.validavia.me on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://lcd-evmos.validavia.me/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup lcd-evmos.validavia.me on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://lcd.evmos.bronbro.io:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://rest-evmos.architectnodes.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rest-evmos.architectnodes.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-evmos.architectnodes.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rest-evmos.architectnodes.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-evmos.architectnodes.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://rest.bd.evmos.org:1317": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rest.bd.evmos.org:1317/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest.bd.evmos.org on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rest.bd.evmos.org:1317/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest.bd.evmos.org on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/evmos": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos-mainnet.rpc.stakevillage.net:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-mainnet.rpc.stakevillage.net:443/status\": dial tcp: lookup evmos-mainnet.rpc.stakevillage.net on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-mainnet.rpc.stakevillage.net:443/status\": dial tcp: lookup evmos-mainnet.rpc.stakevillage.net on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos-rpc.antrixy.org/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-rpc.antrixy.org/status\": dial tcp: lookup evmos-rpc.antrixy.org on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-rpc.antrixy.org/status\": dial tcp: lookup evmos-rpc.antrixy.org on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos-rpc.polkachu.com": {
@@ -281,7 +281,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://evmos-rpc.publicnode.com:443": {
@@ -289,87 +289,87 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://evmos-rpc.theamsolutions.info": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "decode: invalid character '\u003c' looking for beginning of value",
       "first_evidence": "decode: invalid character '\u003c' looking for beginning of value",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos-rpc.validatrium.club": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-rpc.validatrium.club/status\": dial tcp: lookup evmos-rpc.validatrium.club on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-rpc.validatrium.club/status\": dial tcp: lookup evmos-rpc.validatrium.club on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos-rpc.w3coins.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos-rpc.w3coins.io/status\": dial tcp: lookup evmos-rpc.w3coins.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos-rpc.w3coins.io/status\": dial tcp: lookup evmos-rpc.w3coins.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos.drpc.org": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos.rpc.liveraven.net": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://evmos.rpc.liveraven.net/status\": dial tcp: lookup evmos.rpc.liveraven.net on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://evmos.rpc.liveraven.net/status\": dial tcp: lookup evmos.rpc.liveraven.net on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://evmos.rpc.stakin-nodes.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc-evmos-01.stakeflow.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-evmos-01.stakeflow.io/status\": dial tcp: lookup rpc-evmos-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-evmos-01.stakeflow.io/status\": dial tcp: lookup rpc-evmos-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc-evmos-ia.cosmosia.notional.ventures:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-evmos-ia.cosmosia.notional.ventures:443/status\": dial tcp: lookup rpc-evmos-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-evmos-ia.cosmosia.notional.ventures:443/status\": dial tcp: lookup rpc-evmos-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc-evmos.architectnodes.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-evmos.architectnodes.com/status\": dial tcp: lookup rpc-evmos.architectnodes.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-evmos.architectnodes.com/status\": dial tcp: lookup rpc-evmos.architectnodes.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc-evmos.validavia.me": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-evmos.validavia.me/status\": dial tcp: lookup rpc-evmos.validavia.me on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-evmos.validavia.me/status\": dial tcp: lookup rpc-evmos.validavia.me on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.evmos.bronbro.io:443": {
@@ -377,47 +377,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.evmos.citizenweb3.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc.evmos.citizenweb3.com:443/status\": dial tcp: lookup rpc.evmos.citizenweb3.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc.evmos.citizenweb3.com:443/status\": dial tcp: lookup rpc.evmos.citizenweb3.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.evmos.silentvalidator.com/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc.evmos.silentvalidator.com/status\": dial tcp: lookup rpc.evmos.silentvalidator.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc.evmos.silentvalidator.com/status\": dial tcp: lookup rpc.evmos.silentvalidator.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.evmos.testnet.run": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc.evmos.testnet.run/status\": dial tcp: lookup rpc.evmos.testnet.run on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc.evmos.testnet.run/status\": dial tcp: lookup rpc.evmos.testnet.run on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/evmos": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://tendermint.bd.evmos.org:26657": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://tendermint.bd.evmos.org:26657/status\": dial tcp: lookup tendermint.bd.evmos.org on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://tendermint.bd.evmos.org:26657/status\": dial tcp: lookup tendermint.bd.evmos.org on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "last_checked": "2026-05-18T19:35:31.627148406Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     }
   }
