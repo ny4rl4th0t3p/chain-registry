@@ -1,5 +1,5 @@
 # .github/workflows/sentinel.yml
-name: sentinel
+name: sentinel_dryrun
 
 on:
   workflow_dispatch:
