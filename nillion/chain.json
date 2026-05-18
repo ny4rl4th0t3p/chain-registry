@@ -96,70 +96,13 @@
   },
   "apis": {
     "rpc": [
-      {
-        "address": "https://nillion-rpc.lavenderfive.com",
-        "provider": "lavenderfive"
-      },
-      {
-        "address": "https://rpc.nillion.nodestake.org",
-        "provider": "NodeStake"
-      },
-      {
-        "address": "https://nillion-mainnet-rpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://nillion-mainnet-rpc.shazoes.xyz",
-        "provider": "Shazoes"
-      },
-      {
-        "address": "https://rpc.nillion.validatus.com",
-        "provider": "Validatus"
-      }
+      
     ],
     "rest": [
-      {
-        "address": "https://nillion-api.lavenderfive.com",
-        "provider": "lavenderfive"
-      },
-      {
-        "address": "https://api.nillion.nodestake.org",
-        "provider": "NodeStake"
-      },
-      {
-        "address": "https://nillion-mainnet-lcd.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://nillion-mainnet-api.shazoes.xyz",
-        "provider": "Shazoes"
-      },
-      {
-        "address": "https://api.nillion.validatus.com",
-        "provider": "Validatus"
-      }
+      
     ],
     "grpc": [
-      {
-        "address": "https://nillion-grpc.lavenderfive.com",
-        "provider": "lavenderfive"
-      },
-      {
-        "address": "https://grpc.nillion.nodestake.org",
-        "provider": "NodeStake"
-      },
-      {
-        "address": "nillion-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "nillion-mainnet-grpc.shazoes.xyz:30890",
-        "provider": "Shazoes"
-      },
-      {
-        "address": "grpc.nillion.validatus.com:443",
-        "provider": "Validatus"
-      }
+      
     ]
   },
   "explorers": [
