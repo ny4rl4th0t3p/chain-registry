@@ -165,174 +165,33 @@
   },
   "apis": {
     "rpc": [
-      {
-        "address": "https://rpc.lavenderfive.com:443/evmos",
-        "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "https://tendermint.bd.evmos.org:26657",
-        "provider": "Blockdaemon"
-      },
-      {
-        "address": "https://rpc-evmos-ia.cosmosia.notional.ventures:443",
-        "provider": "Notional"
-      },
-      {
-        "address": "https://rpc.evmos.testnet.run",
-        "provider": "TestNetRun"
-      },
+      
       {
         "address": "https://evmos-rpc.polkachu.com",
         "provider": "Polkachu"
-      },
-      {
-        "address": "https://rpc.evmos.silentvalidator.com/",
-        "provider": "silent"
-      },
-      {
-        "address": "https://evmos.rpc.stakin-nodes.com",
-        "provider": "Stakin"
-      },
-      {
-        "address": "https://rpc-evmos.architectnodes.com",
-        "provider": "Architect Nodes"
-      },
-      {
-        "address": "https://evmos-rpc.validatrium.club",
-        "provider": "Validatrium"
       },
       {
         "address": "https://evmos-rpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
       },
       {
-        "address": "https://rpc-evmos-01.stakeflow.io",
-        "provider": "Stakeflow"
-      },
-      {
-        "address": "https://evmos-rpc.theamsolutions.info",
-        "provider": "AM Solutions"
-      },
-      {
-        "address": "https://rpc-evmos.validavia.me",
-        "provider": "Validavia"
-      },
-      {
-        "address": "https://evmos-rpc.w3coins.io",
-        "provider": "w3coins"
-      },
-      {
-        "address": "https://evmos.rpc.liveraven.net",
-        "provider": "LiveRaveN"
-      },
-      {
-        "address": "https://evmos-rpc.antrixy.org/",
-        "provider": "Antrix Validators"
-      },
-      {
-        "address": "https://evmos-mainnet.rpc.stakevillage.net:443",
-        "provider": "Stake Village"
-      },
-      {
         "address": "https://rpc.evmos.bronbro.io:443",
         "provider": "Bro_n_Bro"
-      },
-      {
-        "address": "https://rpc.evmos.citizenweb3.com:443",
-        "provider": "Citizen Web3"
-      },
-      {
-        "address": "https://evmos.drpc.org",
-        "provider": "dRPC"
       }
     ],
     "rest": [
-      {
-        "address": "https://rest.bd.evmos.org:1317",
-        "provider": "Blockdaemon"
-      },
-      {
-        "address": "https://rest.lavenderfive.com:443/evmos",
-        "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "https://api-evmos-ia.cosmosia.notional.ventures/",
-        "provider": "Notional"
-      },
+      
       {
         "address": "https://evmos-api.polkachu.com",
         "provider": "Polkachu"
       },
       {
-        "address": "https://api.evmos.silentvalidator.com/",
-        "provider": "silent"
-      },
-      {
-        "address": "https://evmos.rest.stakin-nodes.com",
-        "provider": "Stakin"
-      },
-      {
-        "address": "https://rest-evmos.architectnodes.com",
-        "provider": "Architect Nodes"
-      },
-      {
-        "address": "https://evmos-api.validatrium.club",
-        "provider": "Validatrium"
-      },
-      {
         "address": "https://evmos-rest.publicnode.com",
         "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
-        "address": "https://api-evmos-01.stakeflow.io",
-        "provider": "Stakeflow"
-      },
-      {
-        "address": "https://evmos-api.theamsolutions.info",
-        "provider": "AM Solutions"
-      },
-      {
-        "address": "https://lcd-evmos.validavia.me",
-        "provider": "Validavia"
-      },
-      {
-        "address": "https://evmos-api.w3coins.io",
-        "provider": "w3coins"
-      },
-      {
-        "address": "https://evmos.api.liveraven.net",
-        "provider": "LiveRaveN"
-      },
-      {
-        "address": "https://evmos-rest.antrixy.org/",
-        "provider": "Antrix Validators"
-      },
-      {
-        "address": "https://evmos-mainnet.api.stakevillage.net",
-        "provider": "Stake Village"
-      },
-      {
-        "address": "https://lcd.evmos.bronbro.io:443",
-        "provider": "Bro_n_Bro"
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.bd.evmos.org:9090",
-        "provider": "evmos.org"
-      },
-      {
-        "address": "grpc-evmos-ia.cosmosia.notional.ventures:443",
-        "provider": "Notional"
-      },
-      {
-        "address": "evmos.lavenderfive.com:443",
-        "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "grpc-evmos.cosmos-spaces.cloud:1190",
-        "provider": "Cosmos Spaces"
-      },
+      
       {
         "address": "evmos-grpc.polkachu.com:13490",
         "provider": "Polkachu"
@@ -340,46 +199,6 @@
       {
         "address": "evmos.grpc.stakin-nodes.com:443",
         "provider": "Stakin"
-      },
-      {
-        "address": "evmos-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "evmos-grpc.publicnode.com:443",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
-        "address": "grpc-evmos-01.stakeflow.io:1702",
-        "provider": "Stakeflow"
-      },
-      {
-        "address": "https://evmos-grpc.theamsolutions.info ",
-        "provider": "AM Solutions"
-      },
-      {
-        "address": "evmos-grpc.w3coins.io:13490",
-        "provider": "w3coins"
-      },
-      {
-        "address": "grpc-evmos.mms.team:443",
-        "provider": "MMS"
-      },
-      {
-        "address": "evmos.grpc.liveraven.net:443",
-        "provider": "LiveRaveN"
-      },
-      {
-        "address": "https://evmos-grpc.antrixy.org/",
-        "provider": "Antrix Validators"
-      },
-      {
-        "address": "evmos-mainnet.grpc.stakevillage.net:16990",
-        "provider": "Stake Village"
-      },
-      {
-        "address": "https://grpc.evmos.bronbro.io:443",
-        "provider": "Bro_n_Bro"
       }
     ],
     "evm-http-jsonrpc": [
