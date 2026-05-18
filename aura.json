@@ -1,87 +1,87 @@
 {
   "version": 1,
   "chain_id": "aura_6322-2",
-  "updated_at": "2026-05-18T19:35:31.627148406Z",
-  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "updated_at": "2026-05-18T19:40:15.401266837Z",
+  "last_pr_opened_at": "2026-05-18T19:40:15.401266837Z",
   "endpoints": {
     "grpc_liveness|aura-grpc.noders.services:17090": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.93.17:17090: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.93.17:17090: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|aura-grpc.palamar.io:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 148.251.88.145:443: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 148.251.88.145:443: connect: connection refused\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|aura-grpc.stake-town.com:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: remote error: tls: internal error\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: remote error: tls: internal error\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|aura.grpc.kjnodes.com:11790": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.88.38:11790: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.88.38:11790: connect: connection refused\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|aura.grpc.srv.stakr.space:19090": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 185.246.87.48:19090: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 185.246.87.48:19090: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|aura.lavenderfive.com:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|aura.mainnet.grpc.nodersteam.com:9100/": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|auranetwork-mainnet-grpc.autostake.com:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc-aura.mms.team:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc.aura.silentvalidator.com:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|http://aura.grpc.m.stavr.tech:9901": {
@@ -89,15 +89,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|https://aura-grpc.ramuchi.tech:15000": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|https://grpc.aura.network": {
@@ -105,31 +105,31 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|services.staketab.com:9021": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://api-aura.mms.team": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://api-aura.mms.team/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-aura.mms.team on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-aura.mms.team/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-aura.mms.team on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://api.aura.silentvalidator.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://api.aura.silentvalidator.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.aura.silentvalidator.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api.aura.silentvalidator.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.aura.silentvalidator.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://aura-api.noders.services": {
@@ -137,47 +137,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://aura-api.palamar.io": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-api.palamar.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 148.251.88.145:443: connect: connection refused",
       "first_evidence": "Get \"https://aura-api.palamar.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 148.251.88.145:443: connect: connection refused",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://aura-api.ramuchi.tech": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-api.ramuchi.tech/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup aura-api.ramuchi.tech on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://aura-api.ramuchi.tech/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup aura-api.ramuchi.tech on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://aura-api.stake-town.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": remote error: tls: internal error",
       "first_evidence": "Get \"https://aura-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": remote error: tls: internal error",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://aura-rest.staketab.org": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
-      "last_evidence": "Get \"https://aura-rest.staketab.org/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
+      "last_evidence": "Get \"https://aura-rest.staketab.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup aura-rest.staketab.org on 168.63.129.16:53: read udp 172.17.0.2:36417-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "Get \"https://aura-rest.staketab.org/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://aura.api.kjnodes.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://aura.api.m.stavr.tech": {
@@ -185,7 +185,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://aura.api.srv.stakr.space": {
@@ -193,7 +193,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://lcd.aura.network/": {
@@ -201,15 +201,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://m-aura.api.utsa.tech": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://m-aura.api.utsa.tech/cosmos/base/tendermint/v1beta1/node_info\": tls: failed to verify certificate: x509: certificate is valid for grafana.utsa.tech, not m-aura.api.utsa.tech",
       "first_evidence": "Get \"https://m-aura.api.utsa.tech/cosmos/base/tendermint/v1beta1/node_info\": tls: failed to verify certificate: x509: certificate is valid for grafana.utsa.tech, not m-aura.api.utsa.tech",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://mainnet-aura-api.konsortech.xyz": {
@@ -217,23 +217,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/aura": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|http://aura.rpc.m.stavr.tech:11047": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"http://aura.rpc.m.stavr.tech:11047/status\": dial tcp 65.21.136.219:11047: connect: connection refused",
       "first_evidence": "Get \"http://aura.rpc.m.stavr.tech:11047/status\": dial tcp 65.21.136.219:11047: connect: connection refused",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://aura-rpc.noders.services": {
@@ -241,47 +241,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://aura-rpc.palamar.io": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-rpc.palamar.io/status\": dial tcp 148.251.88.145:443: connect: connection refused",
       "first_evidence": "Get \"https://aura-rpc.palamar.io/status\": dial tcp 148.251.88.145:443: connect: connection refused",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://aura-rpc.ramuchi.tech": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-rpc.ramuchi.tech/status\": dial tcp: lookup aura-rpc.ramuchi.tech on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://aura-rpc.ramuchi.tech/status\": dial tcp: lookup aura-rpc.ramuchi.tech on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://aura-rpc.stake-town.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-rpc.stake-town.com/status\": remote error: tls: internal error",
       "first_evidence": "Get \"https://aura-rpc.stake-town.com/status\": remote error: tls: internal error",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://aura-rpc.staketab.org:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://aura-rpc.staketab.org:443/status\": context deadline exceeded",
       "first_evidence": "Get \"https://aura-rpc.staketab.org:443/status\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://aura.rpc.kjnodes.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://aura.rpc.srv.stakr.space": {
@@ -289,15 +289,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://m-aura.rpc.utsa.tech": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://m-aura.rpc.utsa.tech/status\": tls: failed to verify certificate: x509: certificate is valid for grafana.utsa.tech, not m-aura.rpc.utsa.tech",
       "first_evidence": "Get \"https://m-aura.rpc.utsa.tech/status\": tls: failed to verify certificate: x509: certificate is valid for grafana.utsa.tech, not m-aura.rpc.utsa.tech",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://mainnet-aura-rpc.konsortech.xyz": {
@@ -305,15 +305,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-aura.mms.team": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-aura.mms.team/status\": dial tcp: lookup rpc-aura.mms.team on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-aura.mms.team/status\": dial tcp: lookup rpc-aura.mms.team on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.aura.network/": {
@@ -321,23 +321,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.aura.silentvalidator.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc.aura.silentvalidator.com/status\": dial tcp: lookup rpc.aura.silentvalidator.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc.aura.silentvalidator.com/status\": dial tcp: lookup rpc.aura.silentvalidator.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/aura": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 503",
       "first_evidence": "HTTP 503",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     }
   }

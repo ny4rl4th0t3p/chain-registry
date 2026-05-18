@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "divine-1",
-  "updated_at": "2026-05-18T19:35:31.627148406Z",
+  "updated_at": "2026-05-18T19:40:15.401266837Z",
   "last_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
     "grpc_liveness|grpc-mainnet-node2.divineray.ca:443": {
@@ -9,7 +9,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc-mainnet-node3.divineray.ca:443": {
@@ -17,7 +17,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc-mainnet.divineray.ca:443": {
@@ -25,7 +25,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-mainnet-node2.divineray.ca:443": {
@@ -33,7 +33,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-mainnet-node3.divineray.ca:443": {
@@ -41,7 +41,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-mainnet.divineray.ca:443": {
@@ -49,7 +49,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-mainnet-node2.divineray.ca:443": {
@@ -57,7 +57,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-mainnet-node3.divineray.ca:443": {
@@ -65,7 +65,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-mainnet.divineray.ca:443": {
@@ -73,7 +73,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     }
   }

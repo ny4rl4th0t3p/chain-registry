@@ -1,23 +1,23 @@
 {
   "version": 1,
   "chain_id": "cronosmainnet_25-1",
-  "updated_at": "2026-05-18T19:35:31.627148406Z",
-  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "updated_at": "2026-05-18T19:40:15.401266837Z",
+  "last_pr_opened_at": "2026-05-18T19:40:15.401266837Z",
   "endpoints": {
     "grpc_liveness|cronos-grpc.publicnode.com:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/cronos/host",
       "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/cronos/host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "grpc_liveness|grpc.cronos.org:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html; charset=UTF-8\"",
       "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html; charset=UTF-8\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rest_liveness|https://cronos-rest.publicnode.com": {
@@ -25,15 +25,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.cronos.org/": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 403",
       "first_evidence": "Get \"https://rest.cronos.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest.cronos.org on 168.63.129.16:53: read udp 172.17.0.2:43479-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://cronos-rpc.publicnode.com:443": {
@@ -41,23 +41,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cronos.drpc.org": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "Get \"https://cronos.drpc.org/status\": dial tcp: lookup cronos.drpc.org on 168.63.129.16:53: read udp 172.17.0.2:59441-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     },
     "rpc_liveness|https://rpc.cronos.org/": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 403",
       "first_evidence": "Get \"https://rpc.cronos.org/status\": dial tcp: lookup rpc.cronos.org on 168.63.129.16:53: read udp 172.17.0.2:45837-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T19:30:41.541209162Z"
     }
   }

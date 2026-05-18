@@ -1,39 +1,39 @@
 {
   "version": 1,
   "chain_id": "celestia",
-  "updated_at": "2026-05-18T19:35:31.627148406Z",
+  "updated_at": "2026-05-18T19:40:15.401266837Z",
   "last_pr_opened_at": "2026-05-18T18:52:45.97347081Z",
   "endpoints": {
     "grpc_liveness|celestia-grpc.noders.services:11090": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.93.17:11090: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.93.17:11090: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia-grpc.publicnode.com:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/tia/host",
       "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/tia/host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia-grpc.sr20de.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia-mainnet-grpc.autostake.com:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia-mainnet-grpc.itrocket.net:443": {
@@ -41,39 +41,39 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|celestia.grpc.cumulo.org.es": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = unexpected HTTP status code received from server: 204 (No Content); malformed header: missing HTTP content-type",
       "first_evidence": "rpc error: code = Unknown desc = unexpected HTTP status code received from server: 204 (No Content); malformed header: missing HTTP content-type",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia.grpc.interchain.validao.xyz:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 31.210.34.171:443: i/o timeout\"",
+      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 62.3.50.136:443: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 62.3.50.136:443: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia.grpc.kjnodes.com:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia.grpc.nodersteam.com:9690": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|celestia.grpc.stakin-nodes.com:443": {
@@ -81,7 +81,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|celestia.lavenderfive.com:443": {
@@ -89,79 +89,79 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc-celestia-01.stakeflow.io:15002": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-celestia-full.avril14th.org": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-celestia.cosmos-spaces.cloud:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-celestia.mzonder.com:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: PROTOCOL_ERROR",
       "first_evidence": "rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: PROTOCOL_ERROR",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-celestia.theamsolutions.info:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: credentials: cannot check peer: missing selected ALPN property. If you upgraded from a grpc-go version earlier than 1.67, your TLS connections may have stopped working due to ALPN enforcement. For more details, see: https://github.com/grpc/grpc-go/issues/434\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: credentials: cannot check peer: missing selected ALPN property. If you upgraded from a grpc-go version earlier than 1.67, your TLS connections may have stopped working due to ALPN enforcement. For more details, see: https://github.com/grpc/grpc-go/issues/434\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.archive.celestia.validatus.com:2125": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 5.199.140.75:2125: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 5.199.140.75:2125: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.celestia-app.bronbro.io:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: tls: failed to verify certificate: x509: certificate is valid for grpc.agoric.bronbro.io, lcd.agoric.bronbro.io, rpc.agoric.bronbro.io, not grpc.celestia-app.bronbro.io\"",
+      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: read tcp 172.17.0.2:44646-\u003e49.12.68.21:443: read: connection reset by peer\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: EOF\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.celestia.mainnet.dteam.tech:28090": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 167.88.61.38:28090: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 167.88.61.38:28090: connect: connection refused\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.celestia.node75.org:9220": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 57.128.22.78:9220: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 57.128.22.78:9220: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.celestia.validatus.com:443": {
@@ -169,87 +169,87 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|http://celestia-grpc.stakeandrelax.net:11690": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.26.242:11690: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.26.242:11690: i/o timeout\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|https://celestia-grpc.stake-town.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: remote error: tls: internal error\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: remote error: tls: internal error\"",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|https://grpc.celestia.nodestake.org": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "rpc error: code = Unavailable desc = dns: A record lookup error: lookup grpc.celestia.nodestake.org on 168.63.129.16:53: read udp 172.17.0.2:52450-\u003e168.63.129.16:53: i/o timeout",
-      "first_evidence": "rpc error: code = Unavailable desc = dns: A record lookup error: lookup grpc.celestia.nodestake.org on 168.63.129.16:53: read udp 172.17.0.2:52450-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
-      "first_failure_time": "2026-05-18T19:35:31.627148406Z"
-    },
-    "rest_liveness|http://celestia.rpc.nodersteam.com:1617": {
-      "consecutive_failures": 8,
-      "last_passed": false,
-      "last_evidence": "Get \"http://celestia.rpc.nodersteam.com:1617/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia.rpc.nodersteam.com on 168.63.129.16:53: no such host",
-      "first_evidence": "Get \"http://celestia.rpc.nodersteam.com:1617/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia.rpc.nodersteam.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
-      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
-    },
-    "rest_liveness|https://api-celestia-01.stakeflow.io": {
-      "consecutive_failures": 8,
-      "last_passed": false,
-      "last_evidence": "Get \"https://api-celestia-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "first_evidence": "Get \"https://api-celestia-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
-      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
-    },
-    "rest_liveness|https://api-celestia-full.avril14th.org": {
-      "consecutive_failures": 8,
-      "last_passed": false,
-      "last_evidence": "Get \"https://api-celestia-full.avril14th.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-full.avril14th.org on 168.63.129.16:53: no such host",
-      "first_evidence": "Get \"https://api-celestia-full.avril14th.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-full.avril14th.org on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
-      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
-    },
-    "rest_liveness|https://api-celestia.cosmos-spaces.cloud": {
-      "consecutive_failures": 8,
-      "last_passed": false,
-      "last_evidence": "Get \"https://api-celestia.cosmos-spaces.cloud/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
-      "first_evidence": "Get \"https://api-celestia.cosmos-spaces.cloud/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
-      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
-    },
-    "rest_liveness|https://api-celestia.mzonder.com": {
-      "consecutive_failures": 8,
-      "last_passed": false,
-      "last_evidence": "Get \"https://api-celestia.mzonder.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "first_evidence": "Get \"https://api-celestia.mzonder.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
-      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
-    },
-    "rest_liveness|https://api.archive.celestia.validatus.com": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
+    },
+    "rest_liveness|http://celestia.rpc.nodersteam.com:1617": {
+      "consecutive_failures": 9,
+      "last_passed": false,
+      "last_evidence": "Get \"http://celestia.rpc.nodersteam.com:1617/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia.rpc.nodersteam.com on 168.63.129.16:53: no such host",
+      "first_evidence": "Get \"http://celestia.rpc.nodersteam.com:1617/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia.rpc.nodersteam.com on 168.63.129.16:53: no such host",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
+      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
+    },
+    "rest_liveness|https://api-celestia-01.stakeflow.io": {
+      "consecutive_failures": 9,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api-celestia-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-01.stakeflow.io on 168.63.129.16:53: read udp 172.17.0.2:44705-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://api-celestia-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-01.stakeflow.io on 168.63.129.16:53: no such host",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
+      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
+    },
+    "rest_liveness|https://api-celestia-full.avril14th.org": {
+      "consecutive_failures": 9,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api-celestia-full.avril14th.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-full.avril14th.org on 168.63.129.16:53: no such host",
+      "first_evidence": "Get \"https://api-celestia-full.avril14th.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia-full.avril14th.org on 168.63.129.16:53: no such host",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
+      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
+    },
+    "rest_liveness|https://api-celestia.cosmos-spaces.cloud": {
+      "consecutive_failures": 9,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api-celestia.cosmos-spaces.cloud/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
+      "first_evidence": "Get \"https://api-celestia.cosmos-spaces.cloud/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-celestia.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
+      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
+    },
+    "rest_liveness|https://api-celestia.mzonder.com": {
+      "consecutive_failures": 9,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api-celestia.mzonder.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
+      "first_evidence": "Get \"https://api-celestia.mzonder.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
+      "first_failure_time": "2026-05-18T18:42:43.021036757Z"
+    },
+    "rest_liveness|https://api.archive.celestia.validatus.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api.archive.celestia.validatus.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.archive.celestia.validatus.com on 168.63.129.16:53: read udp 172.17.0.2:45394-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://api.archive.celestia.validatus.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.archive.celestia.validatus.com on 168.63.129.16:53: read udp 172.17.0.2:45394-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
+      "first_failure_time": "2026-05-18T19:40:15.401266837Z"
     },
     "rest_liveness|https://api.celestia.mainnet.dteam.tech:443": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.celestia.node75.org": {
@@ -257,7 +257,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.celestia.nodestake.org": {
@@ -265,7 +265,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.celestia.validatus.com": {
@@ -273,15 +273,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.lunaroasis.net": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://api.lunaroasis.net/cosmos/base/tendermint/v1beta1/node_info\": remote error: tls: internal error",
       "first_evidence": "Get \"https://api.lunaroasis.net/cosmos/base/tendermint/v1beta1/node_info\": remote error: tls: internal error",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-api.noders.services": {
@@ -289,39 +289,39 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://celestia-api.sr20de.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://celestia-api.sr20de.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia-api.sr20de.xyz on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://celestia-api.sr20de.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia-api.sr20de.xyz on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-api.stake-town.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://celestia-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: TLS handshake timeout",
       "first_evidence": "Get \"https://celestia-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-api.stakeandrelax.net": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "HTTP 502",
       "first_evidence": "HTTP 502",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-lcd.enigma-validator.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://celestia-lcd.enigma-validator.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
       "first_evidence": "Get \"https://celestia-lcd.enigma-validator.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 65.21.200.7:443: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-mainnet-api.itrocket.net": {
@@ -329,23 +329,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://celestia-mainnet-lcd.autostake.com:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "HTTP 404",
+      "last_evidence": "Get \"https://celestia-mainnet-lcd.autostake.com:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp [2606:4700:3033::6815:97f]:443: connect: network is unreachable",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-rest.mesa.newmetric.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "Get \"https://celestia-rest.mesa.newmetric.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia-rest.mesa.newmetric.xyz on 168.63.129.16:53: no such host",
+      "last_evidence": "Get \"https://celestia-rest.mesa.newmetric.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia-rest.mesa.newmetric.xyz on 168.63.129.16:53: read udp 172.17.0.2:36858-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "Get \"https://celestia-rest.mesa.newmetric.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia-rest.mesa.newmetric.xyz on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia-rest.publicnode.com": {
@@ -353,7 +353,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://celestia.api.cumulo.org.es": {
@@ -361,7 +361,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://celestia.api.kjnodes.com": {
@@ -369,15 +369,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://celestia.rest.interchain.validao.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "Get \"https://celestia.rest.interchain.validao.xyz/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
+      "last_evidence": "Get \"https://celestia.rest.interchain.validao.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup celestia.rest.interchain.validao.xyz on 168.63.129.16:53: read udp 172.17.0.2:55900-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "Get \"https://celestia.rest.interchain.validao.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 31.210.34.171:443: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://celestia.rest.stakin-nodes.com": {
@@ -389,27 +389,27 @@
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://lcd.celestia-app.bronbro.io": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "Get \"https://lcd.celestia-app.bronbro.io/cosmos/base/tendermint/v1beta1/node_info\": tls: failed to verify certificate: x509: certificate is valid for grpc.agoric.bronbro.io, lcd.agoric.bronbro.io, rpc.agoric.bronbro.io, not lcd.celestia-app.bronbro.io",
+      "last_evidence": "Get \"https://lcd.celestia-app.bronbro.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup lcd.celestia-app.bronbro.io on 168.63.129.16:53: read udp 172.17.0.2:38354-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "Get \"https://lcd.celestia-app.bronbro.io/cosmos/base/tendermint/v1beta1/node_info\": tls: failed to verify certificate: x509: certificate is valid for grpc.agoric.bronbro.io, lcd.agoric.bronbro.io, rpc.agoric.bronbro.io, not lcd.celestia-app.bronbro.io",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://public-celestia-lcd.numia.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "HTTP 501",
+      "last_evidence": "Get \"https://public-celestia-lcd.numia.xyz/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup public-celestia-lcd.numia.xyz on 168.63.129.16:53: read udp 172.17.0.2:53773-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "HTTP 501",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://rest-celestia.theamsolutions.info": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "decode: invalid character '\u003c' looking for beginning of value",
       "first_evidence": "decode: invalid character '\u003c' looking for beginning of value",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/celestia": {
@@ -417,23 +417,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|http://celestia.rpc.nodersteam.com:29657": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"http://celestia.rpc.nodersteam.com:29657/status\": dial tcp: lookup celestia.rpc.nodersteam.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"http://celestia.rpc.nodersteam.com:29657/status\": dial tcp: lookup celestia.rpc.nodersteam.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia-mainnet-rpc.autostake.com:443": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia-mainnet-rpc.itrocket.net": {
@@ -441,23 +441,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://celestia-rpc.enigma-validator.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "Get \"https://celestia-rpc.enigma-validator.com/status\": context deadline exceeded",
+      "last_evidence": "Get \"https://celestia-rpc.enigma-validator.com/status\": dial tcp 65.21.200.7:443: i/o timeout",
       "first_evidence": "Get \"https://celestia-rpc.enigma-validator.com/status\": dial tcp 65.21.200.7:443: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia-rpc.mesa.newmetric.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://celestia-rpc.mesa.newmetric.xyz/status\": dial tcp: lookup celestia-rpc.mesa.newmetric.xyz on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://celestia-rpc.mesa.newmetric.xyz/status\": dial tcp: lookup celestia-rpc.mesa.newmetric.xyz on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia-rpc.noders.services": {
@@ -465,7 +465,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://celestia-rpc.polkachu.com": {
@@ -473,7 +473,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://celestia-rpc.publicnode.com:443": {
@@ -481,31 +481,31 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://celestia-rpc.sr20de.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://celestia-rpc.sr20de.xyz/status\": dial tcp: lookup celestia-rpc.sr20de.xyz on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://celestia-rpc.sr20de.xyz/status\": dial tcp: lookup celestia-rpc.sr20de.xyz on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia-rpc.stake-town.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "Get \"https://celestia-rpc.stake-town.com/status\": context deadline exceeded",
+      "last_evidence": "Get \"https://celestia-rpc.stake-town.com/status\": net/http: TLS handshake timeout",
       "first_evidence": "Get \"https://celestia-rpc.stake-town.com/status\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia-rpc.stakeandrelax.net": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "HTTP 502",
       "first_evidence": "HTTP 502",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia.cumulo.org.es/": {
@@ -513,15 +513,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://celestia.rpc.interchain.validao.xyz": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://celestia.rpc.interchain.validao.xyz/status\": context deadline exceeded",
       "first_evidence": "Get \"https://celestia.rpc.interchain.validao.xyz/status\": dial tcp 62.3.50.134:443: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://celestia.rpc.kjnodes.com": {
@@ -529,7 +529,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://celestia.rpc.stakin-nodes.com": {
@@ -545,47 +545,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-celestia-01.stakeflow.io": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-celestia-01.stakeflow.io/status\": dial tcp: lookup rpc-celestia-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-celestia-01.stakeflow.io/status\": dial tcp: lookup rpc-celestia-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-celestia-full.avril14th.org": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-celestia-full.avril14th.org/status\": dial tcp: lookup rpc-celestia-full.avril14th.org on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-celestia-full.avril14th.org/status\": dial tcp: lookup rpc-celestia-full.avril14th.org on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-celestia.cosmos-spaces.cloud": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-celestia.cosmos-spaces.cloud/status\": dial tcp: lookup rpc-celestia.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-celestia.cosmos-spaces.cloud/status\": dial tcp: lookup rpc-celestia.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-celestia.mzonder.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-celestia.mzonder.com/status\": context deadline exceeded",
       "first_evidence": "Get \"https://rpc-celestia.mzonder.com/status\": context deadline exceeded",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-celestia.theamsolutions.info": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "decode: invalid character '\u003c' looking for beginning of value",
       "first_evidence": "decode: invalid character '\u003c' looking for beginning of value",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.archive.celestia.validatus.com": {
@@ -593,23 +593,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.celestia-app.bronbro.io": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
-      "last_evidence": "Get \"https://rpc.celestia-app.bronbro.io/status\": tls: failed to verify certificate: x509: certificate is valid for grpc.agoric.bronbro.io, lcd.agoric.bronbro.io, rpc.agoric.bronbro.io, not rpc.celestia-app.bronbro.io",
+      "last_evidence": "Get \"https://rpc.celestia-app.bronbro.io/status\": dial tcp: lookup rpc.celestia-app.bronbro.io on 168.63.129.16:53: read udp 172.17.0.2:39749-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "Get \"https://rpc.celestia-app.bronbro.io/status\": tls: failed to verify certificate: x509: certificate is valid for grpc.agoric.bronbro.io, lcd.agoric.bronbro.io, rpc.agoric.bronbro.io, not rpc.celestia-app.bronbro.io",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.celestia.citizenweb3.com": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc.celestia.citizenweb3.com/status\": context deadline exceeded",
       "first_evidence": "Get \"https://rpc.celestia.citizenweb3.com/status\": dial tcp 168.119.37.164:443: i/o timeout",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.celestia.mainnet.dteam.tech:443": {
@@ -617,7 +617,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.celestia.node75.org": {
@@ -625,7 +625,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.celestia.nodestake.org": {
@@ -633,7 +633,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.celestia.validatus.com": {
@@ -641,15 +641,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.freshstaking.com/celestia": {
-      "consecutive_failures": 8,
+      "consecutive_failures": 9,
       "last_passed": false,
       "last_evidence": "HTTP 502",
       "first_evidence": "HTTP 502",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/celestia": {
@@ -657,7 +657,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.lunaroasis.net": {
@@ -665,7 +665,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T19:35:31.627148406Z",
+      "last_checked": "2026-05-18T19:40:15.401266837Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     }
   }
