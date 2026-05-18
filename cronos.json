@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "chain_id": "cronosmainnet_25-1",
+  "updated_at": "2026-05-18T19:30:41.541209162Z",
+  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "endpoints": {
+    "grpc_liveness|cronos-grpc.publicnode.com:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/cronos/host",
+      "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/cronos/host",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "grpc_liveness|grpc.cronos.org:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html; charset=UTF-8\"",
+      "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html; charset=UTF-8\"",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://cronos-rest.publicnode.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://cronos-rest.publicnode.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup cronos-rest.publicnode.com on 168.63.129.16:53: read udp 172.17.0.2:51105-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://cronos-rest.publicnode.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup cronos-rest.publicnode.com on 168.63.129.16:53: read udp 172.17.0.2:51105-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://rest.cronos.org/": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://rest.cronos.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest.cronos.org on 168.63.129.16:53: read udp 172.17.0.2:43479-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://rest.cronos.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest.cronos.org on 168.63.129.16:53: read udp 172.17.0.2:43479-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://cronos-rpc.publicnode.com:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://cronos-rpc.publicnode.com:443/status\": dial tcp: lookup cronos-rpc.publicnode.com on 168.63.129.16:53: read udp 172.17.0.2:40197-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://cronos-rpc.publicnode.com:443/status\": dial tcp: lookup cronos-rpc.publicnode.com on 168.63.129.16:53: read udp 172.17.0.2:40197-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://cronos.drpc.org": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://cronos.drpc.org/status\": dial tcp: lookup cronos.drpc.org on 168.63.129.16:53: read udp 172.17.0.2:59441-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://cronos.drpc.org/status\": dial tcp: lookup cronos.drpc.org on 168.63.129.16:53: read udp 172.17.0.2:59441-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://rpc.cronos.org/": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://rpc.cronos.org/status\": dial tcp: lookup rpc.cronos.org on 168.63.129.16:53: read udp 172.17.0.2:45837-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://rpc.cronos.org/status\": dial tcp: lookup rpc.cronos.org on 168.63.129.16:53: read udp 172.17.0.2:45837-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    }
+  }
+}

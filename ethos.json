@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "chain_id": "ethos_7003-1",
+  "updated_at": "2026-05-18T19:30:41.541209162Z",
+  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "endpoints": {
+    "grpc_liveness|ethos-grpc.provable.dev:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 38.242.138.151:443: i/o timeout\"",
+      "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 38.242.138.151:443: i/o timeout\"",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://ethos.provable.dev/rest/": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://ethos.provable.dev/rest/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup ethos.provable.dev on 168.63.129.16:53: read udp 172.17.0.2:57375-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://ethos.provable.dev/rest/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup ethos.provable.dev on 168.63.129.16:53: read udp 172.17.0.2:57375-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://ethos-rpc.provable.dev:443/": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://ethos-rpc.provable.dev:443/status\": dial tcp: lookup ethos-rpc.provable.dev on 168.63.129.16:53: read udp 172.17.0.2:48934-\u003e168.63.129.16:53: i/o timeout",
+      "first_evidence": "Get \"https://ethos-rpc.provable.dev:443/status\": dial tcp: lookup ethos-rpc.provable.dev on 168.63.129.16:53: read udp 172.17.0.2:48934-\u003e168.63.129.16:53: i/o timeout",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    }
+  }
+}

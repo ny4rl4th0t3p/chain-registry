@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "chain_id": "nillion-1",
+  "updated_at": "2026-05-18T19:30:41.541209162Z",
+  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "endpoints": {
+    "grpc_liveness|grpc.nillion.validatus.com:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: remote error: tls: internal error\"",
+      "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: remote error: tls: internal error\"",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "grpc_liveness|https://grpc.nillion.nodestake.org": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
+      "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "grpc_liveness|https://nillion-grpc.lavenderfive.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
+      "first_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "grpc_liveness|nillion-mainnet-grpc.autostake.com:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
+      "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "grpc_liveness|nillion-mainnet-grpc.shazoes.xyz:30890": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 149.86.227.232:30890: connect: connection refused\"",
+      "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 149.86.227.232:30890: connect: connection refused\"",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://api.nillion.nodestake.org": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api.nillion.nodestake.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.nillion.nodestake.org on 168.63.129.16:53: no such host",
+      "first_evidence": "Get \"https://api.nillion.nodestake.org/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api.nillion.nodestake.org on 168.63.129.16:53: no such host",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://api.nillion.validatus.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://api.nillion.validatus.com/cosmos/base/tendermint/v1beta1/node_info\": remote error: tls: internal error",
+      "first_evidence": "Get \"https://api.nillion.validatus.com/cosmos/base/tendermint/v1beta1/node_info\": remote error: tls: internal error",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://nillion-api.lavenderfive.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "HTTP 503",
+      "first_evidence": "HTTP 503",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://nillion-mainnet-api.shazoes.xyz": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://nillion-mainnet-api.shazoes.xyz/cosmos/base/tendermint/v1beta1/node_info\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-18T19:30:11Z is after 2026-04-02T20:23:49Z",
+      "first_evidence": "Get \"https://nillion-mainnet-api.shazoes.xyz/cosmos/base/tendermint/v1beta1/node_info\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-18T19:30:11Z is after 2026-04-02T20:23:49Z",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rest_liveness|https://nillion-mainnet-lcd.autostake.com:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "HTTP 404",
+      "first_evidence": "HTTP 404",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://nillion-mainnet-rpc.autostake.com:443": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "HTTP 404",
+      "first_evidence": "HTTP 404",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://nillion-mainnet-rpc.shazoes.xyz": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://nillion-mainnet-rpc.shazoes.xyz/status\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-18T19:30:11Z is after 2026-04-02T20:23:40Z",
+      "first_evidence": "Get \"https://nillion-mainnet-rpc.shazoes.xyz/status\": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2026-05-18T19:30:11Z is after 2026-04-02T20:23:40Z",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://nillion-rpc.lavenderfive.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "HTTP 503",
+      "first_evidence": "HTTP 503",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://rpc.nillion.nodestake.org": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://rpc.nillion.nodestake.org/status\": dial tcp: lookup rpc.nillion.nodestake.org on 168.63.129.16:53: no such host",
+      "first_evidence": "Get \"https://rpc.nillion.nodestake.org/status\": dial tcp: lookup rpc.nillion.nodestake.org on 168.63.129.16:53: no such host",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    },
+    "rpc_liveness|https://rpc.nillion.validatus.com": {
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://rpc.nillion.validatus.com/status\": remote error: tls: internal error",
+      "first_evidence": "Get \"https://rpc.nillion.validatus.com/status\": remote error: tls: internal error",
+      "last_checked": "2026-05-18T19:30:41.541209162Z",
+      "first_failure_time": "2026-05-18T19:30:41.541209162Z"
+    }
+  }
+}
