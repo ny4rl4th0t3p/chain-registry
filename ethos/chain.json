@@ -29,22 +29,13 @@
   },
   "apis": {
     "rpc": [
-      {
-        "address": "https://ethos-rpc.provable.dev:443/",
-        "provider": "laurel.provable"
-      }
+      
     ],
     "rest": [
-      {
-        "address": "https://ethos.provable.dev/rest/",
-        "provider": "laurel.provable"
-      }
+      
     ],
     "grpc": [
-      {
-        "address": "ethos-grpc.provable.dev:443",
-        "provider": "laurel.provable"
-      }
+      
     ],
     "evm-http-jsonrpc": [
       {
