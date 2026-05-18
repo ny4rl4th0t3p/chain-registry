@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "cosmoshub-4",
-  "updated_at": "2026-05-18T18:42:43.021036757Z",
+  "updated_at": "2026-05-18T18:44:55.711453521Z",
   "last_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
     "grpc_liveness|cosmos-grpc.polkachu.com:14990": {
@@ -9,15 +9,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|cosmos-grpc.publicnode.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/atom/host",
       "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/atom/host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|cosmos-grpc.stakeandrelax.net:15090": {
@@ -25,7 +25,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|cosmos-grpc.w3coins.io:14990": {
@@ -33,7 +33,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|cosmoshub-mainnet-grpc.itrocket.net:443": {
@@ -41,7 +41,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|cosmoshub-mainnet.chain.whenmoonwhenlambo.money:443": {
@@ -49,23 +49,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|cosmoshub-mainnet.grpc.l0vd.com:80": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.33.48:80: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.33.48:80: connect: connection refused\"",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|cosmoshub.grpc.kjnodes.com:11390": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.88.38:11390: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.109.88.38:11390: connect: connection refused\"",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|cosmoshub.grpc.lava.build": {
@@ -73,15 +73,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|cosmoshub.grpc.quasarstaking.ai": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 185.9.77.207:443: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 185.9.77.207:443: connect: connection refused\"",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|cosmoshub.lavenderfive.com:443": {
@@ -89,47 +89,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc-cosmos-hub-01.stakeflow.io:9090": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-cosmoshub-ia.cosmosia.notional.ventures:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-cosmoshub.cosmos-spaces.cloud:3910": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-cosmoshub.mms.team:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc-cosmoshub.whispernode.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.cosmos.cumulo.com.es:9790": {
@@ -137,7 +137,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc.cosmos.dragonstake.io:443": {
@@ -145,15 +145,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc.cosmos.interbloc.org:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.21.227.95:443: connect: connection refused\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 65.21.227.95:443: connect: connection refused\"",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.cosmoshub-4-archive.citizenweb3.com:443": {
@@ -161,7 +161,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc.cosmoshub-4.citizenweb3.com:443": {
@@ -169,7 +169,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|grpc.cosmoshub-main.ccvalidators.com:443": {
@@ -177,15 +177,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|https://grpc-cosmos.nodeist.net": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|https://grpc.cosmos.nodestake.org": {
@@ -193,55 +193,55 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|services.staketab.com:9030": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api-cosmos-hub-01.stakeflow.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-cosmos-hub-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmos-hub-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-cosmos-hub-01.stakeflow.io/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmos-hub-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api-cosmoshub-ia.cosmosia.notional.ventures/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-cosmoshub-ia.cosmosia.notional.ventures/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmoshub-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-cosmoshub-ia.cosmosia.notional.ventures/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmoshub-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api-cosmoshub.cosmos-spaces.cloud": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-cosmoshub.cosmos-spaces.cloud/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmoshub.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-cosmoshub.cosmos-spaces.cloud/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmoshub.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api-cosmoshub.mms.team": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-cosmoshub.mms.team/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmoshub.mms.team on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://api-cosmoshub.mms.team/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup api-cosmoshub.mms.team on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api-cosmoshub.pupmos.network": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://api-cosmoshub.pupmos.network/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
       "first_evidence": "Get \"https://api-cosmoshub.pupmos.network/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api.cosmos.cumulo.com.es": {
@@ -249,7 +249,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.cosmos.nodestake.org": {
@@ -257,7 +257,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.cosmoshub-4-archive.citizenweb3.com:443": {
@@ -265,7 +265,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.cosmoshub-4.citizenweb3.com:443": {
@@ -273,7 +273,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://community.nuxian-node.ch:6797/gaia/crpc": {
@@ -281,7 +281,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmos-api.highstakes.ch": {
@@ -289,7 +289,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmos-api.stakeandrelax.net": {
@@ -297,7 +297,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmos-api.w3coins.io": {
@@ -305,7 +305,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmos-lcd.easy2stake.com": {
@@ -313,23 +313,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmos-lcd.quickapi.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 403",
       "first_evidence": "HTTP 403",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://cosmos-rest.interstellar-lounge.org": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 523",
       "first_evidence": "HTTP 523",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://cosmos-rest.publicnode.com": {
@@ -337,23 +337,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmos-rest.staketab.org": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://cosmos-rest.staketab.org/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
       "first_evidence": "Get \"https://cosmos-rest.staketab.org/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://cosmos.api.silknodes.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://cosmos.ibs.team:443/api": {
@@ -361,7 +361,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmoshub-api.cosmosrescue.dev": {
@@ -369,7 +369,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmoshub-mainnet-api.itrocket.net": {
@@ -377,7 +377,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money": {
@@ -385,7 +385,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmoshub.api.kjnodes.com": {
@@ -393,7 +393,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmoshub.api.pocket.network": {
@@ -401,23 +401,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://cosmoshub.api.quasarstaking.ai": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://cosmoshub.api.quasarstaking.ai/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 185.9.77.207:443: connect: connection refused",
       "first_evidence": "Get \"https://cosmoshub.api.quasarstaking.ai/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 185.9.77.207:443: connect: connection refused",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://cosmoshub.lava.build:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://cosmoshub.rest.stakin-nodes.com": {
@@ -425,15 +425,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://lcd-cosmoshub.whispernode.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://lcd-cosmoshub.whispernode.com:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup lcd-cosmoshub.whispernode.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://lcd-cosmoshub.whispernode.com:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup lcd-cosmoshub.whispernode.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://lcd.cosmos.dragonstake.io": {
@@ -441,7 +441,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://public.stakewolle.com/cosmos/cosmoshub/rest": {
@@ -449,23 +449,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-cosmos.kewrnode.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rest-cosmos.kewrnode.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-cosmos.kewrnode.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rest-cosmos.kewrnode.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-cosmos.kewrnode.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://rest-cosmoshub.architectnodes.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rest-cosmoshub.architectnodes.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-cosmoshub.architectnodes.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rest-cosmoshub.architectnodes.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup rest-cosmoshub.architectnodes.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://rest-cosmoshub.ecostake.com": {
@@ -473,7 +473,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.cosmoshub-main.ccvalidators.com:443": {
@@ -481,7 +481,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.cosmoshub.goldenratiostaking.net": {
@@ -489,7 +489,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/cosmoshub": {
@@ -497,15 +497,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|http://rpc-cosmoshub.freshstaking.com:26657": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"http://rpc-cosmoshub.freshstaking.com:26657/status\": dial tcp 83.42.171.254:26657: connect: connection refused",
       "first_evidence": "Get \"http://rpc-cosmoshub.freshstaking.com:26657/status\": dial tcp 83.42.171.254:26657: connect: connection refused",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://community.nuxian-node.ch:6797/gaia/trpc": {
@@ -513,15 +513,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos-hub.drpc.org": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmos-rpc.easy2stake.com/": {
@@ -529,7 +529,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos-rpc.highstakes.ch": {
@@ -537,15 +537,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos-rpc.onivalidator.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://cosmos-rpc.onivalidator.com/status\": dial tcp: lookup cosmos-rpc.onivalidator.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://cosmos-rpc.onivalidator.com/status\": dial tcp: lookup cosmos-rpc.onivalidator.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmos-rpc.polkachu.com": {
@@ -553,7 +553,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos-rpc.publicnode.com:443": {
@@ -561,23 +561,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos-rpc.quickapi.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 500",
       "first_evidence": "HTTP 500",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmos-rpc.rockrpc.net": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmos-rpc.stakeandrelax.net": {
@@ -585,15 +585,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos-rpc.staketab.org:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://cosmos-rpc.staketab.org:443/status\": context deadline exceeded",
       "first_evidence": "Get \"https://cosmos-rpc.staketab.org:443/status\": context deadline exceeded",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmos-rpc.w3coins.io": {
@@ -601,7 +601,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos.ibs.team:443/rpc": {
@@ -609,23 +609,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmos.interstellar-lounge.org": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "HTTP 523",
       "first_evidence": "HTTP 523",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmos.rpc.silknodes.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://cosmos.rpc.silknodes.io/status\": dial tcp: lookup cosmos.rpc.silknodes.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://cosmos.rpc.silknodes.io/status\": dial tcp: lookup cosmos.rpc.silknodes.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmoshub-mainnet-rpc.itrocket.net": {
@@ -633,7 +633,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money": {
@@ -641,7 +641,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmoshub-rpc.cosmosrescue.dev": {
@@ -649,7 +649,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmoshub.api.pocket.network": {
@@ -657,7 +657,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmoshub.rpc.kjnodes.com": {
@@ -665,15 +665,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmoshub.rpc.quasarstaking.ai": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://cosmoshub.rpc.quasarstaking.ai/status\": dial tcp 185.9.77.207:443: connect: connection refused",
       "first_evidence": "Get \"https://cosmoshub.rpc.quasarstaking.ai/status\": dial tcp 185.9.77.207:443: connect: connection refused",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://cosmoshub.rpc.stakin-nodes.com": {
@@ -681,7 +681,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://cosmoshub.tendermintrpc.lava.build:443": {
@@ -689,7 +689,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://go.getblock.io/17515cb3ec0e43b7817f182e5de6066a": {
@@ -705,47 +705,47 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-cosmos-hub-01.stakeflow.io": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmos-hub-01.stakeflow.io/status\": dial tcp: lookup rpc-cosmos-hub-01.stakeflow.io on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmos-hub-01.stakeflow.io/status\": dial tcp: lookup rpc-cosmos-hub-01.stakeflow.io on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmos.kewrnode.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmos.kewrnode.com/status\": dial tcp: lookup rpc-cosmos.kewrnode.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmos.kewrnode.com/status\": dial tcp: lookup rpc-cosmos.kewrnode.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmoshub-ia.cosmosia.notional.ventures/": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmoshub-ia.cosmosia.notional.ventures/status\": dial tcp: lookup rpc-cosmoshub-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmoshub-ia.cosmosia.notional.ventures/status\": dial tcp: lookup rpc-cosmoshub-ia.cosmosia.notional.ventures on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmoshub.architectnodes.com": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmoshub.architectnodes.com/status\": dial tcp: lookup rpc-cosmoshub.architectnodes.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmoshub.architectnodes.com/status\": dial tcp: lookup rpc-cosmoshub.architectnodes.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmoshub.cosmos-spaces.cloud": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmoshub.cosmos-spaces.cloud/status\": dial tcp: lookup rpc-cosmoshub.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmoshub.cosmos-spaces.cloud/status\": dial tcp: lookup rpc-cosmoshub.cosmos-spaces.cloud on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmoshub.ecostake.com": {
@@ -753,39 +753,39 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-cosmoshub.mms.team": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmoshub.mms.team/status\": dial tcp: lookup rpc-cosmoshub.mms.team on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmoshub.mms.team/status\": dial tcp: lookup rpc-cosmoshub.mms.team on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmoshub.pupmos.network": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmoshub.pupmos.network/status\": net/http: TLS handshake timeout",
       "first_evidence": "Get \"https://rpc-cosmoshub.pupmos.network/status\": net/http: TLS handshake timeout",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc-cosmoshub.whispernode.com:443": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc-cosmoshub.whispernode.com:443/status\": dial tcp: lookup rpc-cosmoshub.whispernode.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://rpc-cosmoshub.whispernode.com:443/status\": dial tcp: lookup rpc-cosmoshub.whispernode.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.cosmos.bh.rocks": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
-      "last_evidence": "Get \"https://rpc.cosmos.bh.rocks/status\": dial tcp: lookup rpc.cosmos.bh.rocks on 168.63.129.16:53: read udp 172.17.0.2:36757-\u003e168.63.129.16:53: i/o timeout",
+      "last_evidence": "Get \"https://rpc.cosmos.bh.rocks/status\": dial tcp: lookup rpc.cosmos.bh.rocks on 168.63.129.16:53: read udp 172.17.0.2:51949-\u003e168.63.129.16:53: i/o timeout",
       "first_evidence": "Get \"https://rpc.cosmos.bh.rocks/status\": dial tcp: lookup rpc.cosmos.bh.rocks on 168.63.129.16:53: read udp 172.17.0.2:36757-\u003e168.63.129.16:53: i/o timeout",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.cosmos.cumulo.com.es": {
@@ -793,7 +793,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cosmos.dragonstake.io": {
@@ -801,7 +801,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cosmos.nodestake.org": {
@@ -809,7 +809,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cosmoshub-4-archive.citizenweb3.com:443": {
@@ -817,7 +817,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cosmoshub-4.citizenweb3.com": {
@@ -825,7 +825,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cosmoshub-main.ccvalidators.com:443": {
@@ -833,23 +833,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cosmoshub.goldenratiostaking.net": {
-      "consecutive_failures": 0,
-      "last_passed": true,
-      "last_evidence": "",
-      "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
-      "first_failure_time": "0001-01-01T00:00:00Z"
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "Get \"https://rpc.cosmoshub.goldenratiostaking.net/status\": context deadline exceeded",
+      "first_evidence": "Get \"https://rpc.cosmoshub.goldenratiostaking.net/status\": context deadline exceeded",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
+      "first_failure_time": "2026-05-18T18:44:55.711453521Z"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/cosmoshub": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:42:43.021036757Z",
+      "last_checked": "2026-05-18T18:44:55.711453521Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     }
   }
