@@ -17,7 +17,7 @@ jobs:
       - uses: ny4rl4th0t3p/chain-registry-sentinel@main
         with:
           registry: .
-          chains: cosmoshub,osmosis,juno,celestia,neutron
+          chains: cosmoshub,osmosis,juno,celestia,neutron,nillion,aura,berachain,cronos,dig,divine,ethos,evmos,hall
           state-branch: sentinel-state
           min-failures: 3
           pr-cooldown-days: 1
