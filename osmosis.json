@@ -1,23 +1,23 @@
 {
   "version": 1,
   "chain_id": "osmosis-1",
-  "updated_at": "2026-05-18T18:46:31.919940643Z",
-  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "updated_at": "2026-05-18T18:52:45.97347081Z",
+  "last_pr_opened_at": "2026-05-18T18:52:45.97347081Z",
   "endpoints": {
     "grpc_liveness|grpc-osmosis-01.stakeflow.io:6754": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.osmosis.citizenweb3.com:443": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 168.119.37.164:443: i/o timeout\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: Error while dialing: dial tcp 168.119.37.164:443: i/o timeout\"",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|grpc.osmosis.validatus.com:443": {
@@ -25,23 +25,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "grpc_liveness|osmosis-grpc.publicnode.com:443": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/osmo/host",
       "first_evidence": "rpc error: code = Unknown desc = Method /cosmos.base.tendermint.v1beta1.Service/GetNodeInfo is not allowed. To remove restrictions, order a dedicated full node here: https://www.allnodes.com/osmo/host",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|osmosis-grpc.stake-town.com:443": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: PROTOCOL_ERROR",
       "first_evidence": "rpc error: code = Internal desc = stream terminated by RST_STREAM with error code: PROTOCOL_ERROR",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "grpc_liveness|osmosis.grpc.stakin-nodes.com:443": {
@@ -57,15 +57,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://api.osmosis.citizenweb3.com/": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "Get \"https://api.osmosis.citizenweb3.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
       "first_evidence": "Get \"https://api.osmosis.citizenweb3.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://api.osmosis.validatus.com:443": {
@@ -73,15 +73,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://community.nuxian-node.ch:6797/osmosis/crpc": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://lcd.osmosis.zone/": {
@@ -89,7 +89,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://osmosis-api.highstakes.ch": {
@@ -97,7 +97,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://osmosis-api.noders.services": {
@@ -105,7 +105,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://osmosis-api.polkachu.com": {
@@ -113,15 +113,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://osmosis-api.stake-town.com": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "Get \"https://osmosis-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
       "first_evidence": "Get \"https://osmosis-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: TLS handshake timeout",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rest_liveness|https://osmosis-rest.publicnode.com": {
@@ -129,7 +129,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://osmosis.api.pocket.network": {
@@ -137,7 +137,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://osmosis.rest.stakin-nodes.com": {
@@ -153,7 +153,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest-osmosis.ecostake.com": {
@@ -161,31 +161,31 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.cros-nest.com/osmosis": {
-      "consecutive_failures": 0,
-      "last_passed": true,
-      "last_evidence": "",
-      "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
-      "first_failure_time": "0001-01-01T00:00:00Z"
+      "consecutive_failures": 1,
+      "last_passed": false,
+      "last_evidence": "HTTP 503",
+      "first_evidence": "HTTP 503",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
+      "first_failure_time": "2026-05-18T18:52:45.97347081Z"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/osmosis": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rest_liveness|https://rest.osmosis.goldenratiostaking.net": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "HTTP 502",
       "first_evidence": "Get \"https://rest.osmosis.goldenratiostaking.net/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|http://rpc-osmosis.freshstaking.com:31657": {
@@ -193,15 +193,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://community.nuxian-node.ch:6797/osmosis/trpc": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "HTTP 404",
       "first_evidence": "HTTP 404",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://osmosis-rpc.highstakes.ch": {
@@ -209,7 +209,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://osmosis-rpc.noders.services": {
@@ -217,7 +217,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://osmosis-rpc.polkachu.com": {
@@ -225,7 +225,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://osmosis-rpc.publicnode.com:443": {
@@ -233,15 +233,15 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://osmosis-rpc.stake-town.com": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "Get \"https://osmosis-rpc.stake-town.com/status\": net/http: TLS handshake timeout",
       "first_evidence": "Get \"https://osmosis-rpc.stake-town.com/status\": net/http: TLS handshake timeout",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://osmosis.api.pocket.network": {
@@ -249,7 +249,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://osmosis.rpc.stakin-nodes.com": {
@@ -257,7 +257,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://public.stakewolle.com/cosmos/osmosis/rpc": {
@@ -265,7 +265,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc-osmosis.ecostake.com": {
@@ -273,7 +273,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.cros-nest.com/osmosis": {
@@ -281,7 +281,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/osmosis": {
@@ -289,23 +289,23 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.osmosis.citizenweb3.com/": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
       "last_evidence": "Get \"https://rpc.osmosis.citizenweb3.com/status\": context deadline exceeded",
       "first_evidence": "Get \"https://rpc.osmosis.citizenweb3.com/status\": context deadline exceeded",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.osmosis.goldenratiostaking.net": {
-      "consecutive_failures": 3,
+      "consecutive_failures": 4,
       "last_passed": false,
-      "last_evidence": "Get \"https://rpc.osmosis.goldenratiostaking.net/status\": context deadline exceeded",
+      "last_evidence": "HTTP 502",
       "first_evidence": "HTTP 502",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "2026-05-18T18:42:43.021036757Z"
     },
     "rpc_liveness|https://rpc.osmosis.validatus.com": {
@@ -313,7 +313,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     },
     "rpc_liveness|https://rpc.osmosis.zone/": {
@@ -321,7 +321,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-05-18T18:46:31.919940643Z",
+      "last_checked": "2026-05-18T18:52:45.97347081Z",
       "first_failure_time": "0001-01-01T00:00:00Z"
     }
   }
