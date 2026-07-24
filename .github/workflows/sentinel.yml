@@ -20,6 +20,6 @@ jobs:
           chains: zigchain
           state-branch: sentinel-state
           min-failures: 3
-          pr-cooldown-days: 1
+          pr-cooldown-days: 0
           max-new-prs: 20
           github-token: ${{ secrets.GITHUB_TOKEN }}
