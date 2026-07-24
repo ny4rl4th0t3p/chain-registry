@@ -2,7 +2,10 @@
 name: sentinel
 
 on:
+  schedule:
+    - cron: '30 19 * * *'
   workflow_dispatch:
+
 
 permissions:
   contents: write
@@ -17,9 +20,9 @@ jobs:
       - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.5.0
         with:
           registry: .
-          chains: zigchain
+          chains: cosmoshub,osmosis,juno,akash,stride,kujira,archway,dymension,evmos,umee,quasar,stargaze
           state-branch: sentinel-state
           min-failures: 3
-          pr-cooldown-days: 0
-          max-new-prs: 20
+          pr-cooldown-days: 3
+          max-new-prs: 15
           github-token: ${{ secrets.GITHUB_TOKEN }}
