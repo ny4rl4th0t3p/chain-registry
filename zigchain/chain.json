@@ -189,10 +189,7 @@
       }
     ],
     "grpc": [
-      {
-        "address": "grpc.zigchain.com:9090",
-        "provider": "ZIGCHAIN"
-      },
+      
       {
         "address": "zigchain-grpc.polkachu.com:32890",
         "provider": "Polkachu"
