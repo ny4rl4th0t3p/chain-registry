@@ -3,7 +3,8 @@ name: sentinel
 
 on:
   schedule:
-    - cron: '30 19 * * *'
+    - cron: '45 21 * * *'
+      timezone: "Europe/Paris"
   workflow_dispatch:
 
 
