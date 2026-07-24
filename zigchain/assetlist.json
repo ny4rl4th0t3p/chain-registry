@@ -118,7 +118,7 @@
         }
       ],
       "type_asset": "ics20",
-      "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
       "name": "Noble USDC",
       "display": "usdc",
       "symbol": "USDC",
@@ -187,7 +187,7 @@
         }
       ],
       "type_asset": "ics20",
-      "base": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+      "base": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
       "name": "Cosmos Hub Atom",
       "display": "atom",
       "symbol": "ATOM",
