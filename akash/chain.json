@@ -257,16 +257,8 @@
         "provider": "Cosmonaut Stakes"
       },
       {
-        "address": "https://akash-rpc.w3coins.io",
-        "provider": "w3coins"
-      },
-      {
         "address": "https://akash-rpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
-        "address": "https://akash.rpc.arcturian.tech/",
-        "provider": "Arcturian Tech"
       },
       {
         "address": "https://akash.api.pocket.network",
@@ -291,28 +283,12 @@
         "provider": "Kleomedes"
       },
       {
-        "address": "https://api-akash-01.stakeflow.io",
-        "provider": "Stakeflow"
-      },
-      {
         "address": "https://akash-mainnet-rest.cosmonautstakes.com:443",
         "provider": "Cosmonaut Stakes"
       },
       {
-        "address": "https://akash-api.w3coins.io",
-        "provider": "w3coins"
-      },
-      {
         "address": "https://akash-rest.publicnode.com",
         "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
-        "address": "https://akash-api.validatornode.com",
-        "provider": "ValidatorNode"
-      },
-      {
-        "address": "https://akash.api.arcturian.tech",
-        "provider": "Arcturian Tech"
       },
       {
         "address": "https://akash.api.pocket.network",
@@ -323,10 +299,6 @@
       {
         "address": "akash.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "akash-grpc.publicnode.com:443",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
       }
     ]
   },
