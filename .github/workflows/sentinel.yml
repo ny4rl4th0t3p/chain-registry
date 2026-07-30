@@ -18,14 +18,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.7.0
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.0
         with:
           registry: .
           chains: cosmoshub,osmosis,juno,akash,stride,kujira,archway,dymension,evmos,umee,quasar,stargaze
           state-branch: sentinel-state
           min-failures: 3
-          pr-cooldown-days: 3
-          max-new-prs: 15
+          pr-cooldown-days: 0
+          max-endpoint-prs: 15
           # Chain-death demo settings: streaks count runs, so two dispatches mature the
           # candidates (evmos, umee, quasar, stargaze in this subset). max-status-prs lifted
           # above the candidate count so none wait behind the alphabetical default cap of 3.
