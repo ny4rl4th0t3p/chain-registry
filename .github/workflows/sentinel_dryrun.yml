@@ -14,12 +14,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ny4rl4th0t3p/chain-registry-sentinel@main
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.7.0
         with:
           registry: .
-          chains: cosmoshub,osmosis,juno,celestia,neutron
+          # The dead-chain candidates (evmos, umee, quasar, stargaze) plus enough healthy
+          # chains that their withdrawn operators are visibly alive elsewhere — the withdrawal
+          # signature compares within the run.
+          chains: cosmoshub,osmosis,juno,celestia,neutron,evmos,umee,quasar,stargaze
           state-branch: sentinel-state
           min-failures: 3
           pr-cooldown-days: 1
+          # chain-death-min-runs: 1 makes candidates mature instantly. Dry-run never writes
+          # state, so the streak resets every dispatch — which is exactly right for a
+          # repeatable preflight: every run should print
+          #   DRY-RUN: would open status PR marking evmos as killed (dead for 1 runs)
+          chain-death-min-runs: 1
+          max-status-prs: 10
           github-token: ${{ secrets.GITHUB_TOKEN }}
           dry-run: true
