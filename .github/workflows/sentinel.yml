@@ -3,7 +3,7 @@ name: sentinel
 
 on:
   schedule:
-    - cron: '00 9 * * *'
+    - cron: '00 6,12,18 * * *'
       timezone: "Europe/Paris"
   workflow_dispatch:
 
@@ -18,12 +18,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.5.0
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.2
         with:
           registry: .
-          chains: cosmoshub,osmosis,juno,akash,stride,kujira,archway,dymension,evmos,umee,quasar,stargaze
+          chains: juno,akash,stride,kujira,archway,dymension,celestia,neutron,evmos,umee,quasar,stargaze
           state-branch: sentinel-state
-          min-failures: 3
           pr-cooldown-days: 3
-          max-new-prs: 15
+          chain-death-min-runs: 5
+          max-status-prs: 10
+          min-failures: 3
+          max-endpoint-prs: 15
           github-token: ${{ secrets.GITHUB_TOKEN }}
