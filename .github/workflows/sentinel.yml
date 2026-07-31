@@ -18,10 +18,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.5.0
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.1
         with:
           registry: .
-          chains: cosmoshub,osmosis,juno,akash,stride,kujira,archway,dymension,evmos,umee,quasar,stargaze
+          chains: juno,akash,stride,kujira,archway,dymension,celestia,neutron,evmos,umee,quasar,stargaze
           state-branch: sentinel-state
           min-failures: 3
           pr-cooldown-days: 3
