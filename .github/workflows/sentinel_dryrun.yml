@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ny4rl4th0t3p/chain-registry-sentinel@main
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.1
         with:
           registry: .
           chains: cosmoshub,osmosis,juno,celestia,neutron
