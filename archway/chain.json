@@ -164,10 +164,6 @@
         "provider": "All That Node"
       },
       {
-        "address": "https://m-archway.rpc.utsa.tech",
-        "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀"
-      },
-      {
         "address": "https://rpc-1.archway.nodes.guru",
         "provider": "Nodes.Guru"
       },
@@ -190,10 +186,6 @@
       {
         "address": "https://archway-rpc.w3coins.io",
         "provider": "w3coins"
-      },
-      {
-        "address": "https://m-archway.rpc.utsa.tech",
-        "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀"
       },
       {
         "address": "https://rpc.lavenderfive.com:443/archway",
