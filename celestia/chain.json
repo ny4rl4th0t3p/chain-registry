@@ -211,10 +211,6 @@
         "provider": "Numia"
       },
       {
-        "address": "https://celestia-rpc.mesa.newmetric.xyz",
-        "provider": "Newmetric"
-      },
-      {
         "address": "https://rpc.lunaroasis.net",
         "provider": "Lunar Oasis"
       },
@@ -225,22 +221,6 @@
       {
         "address": "https://rpc.lavenderfive.com:443/celestia",
         "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "https://rpc-celestia-01.stakeflow.io",
-        "provider": "Stakeflow"
-      },
-      {
-        "address": "https://rpc-celestia.cosmos-spaces.cloud",
-        "provider": "Cosmos Spaces"
-      },
-      {
-        "address": "http://celestia.rpc.nodersteam.com:29657",
-        "provider": "[NODERS]TEAM"
-      },
-      {
-        "address": "https://celestia.rpc.interchain.validao.xyz",
-        "provider": "ValiDAO"
       },
       {
         "address": "https://celestia-rpc.publicnode.com:443",
@@ -259,56 +239,16 @@
         "provider": "Polkachu"
       },
       {
-        "address": "https://rpc-celestia.mzonder.com",
-        "provider": "MZONDER"
-      },
-      {
-        "address": "https://celestia-rpc.enigma-validator.com",
-        "provider": "Enigma"
-      },
-      {
-        "address": "https://rpc-celestia.theamsolutions.info",
-        "provider": "AM Solutions"
-      },
-      {
-        "address": "https://celestia-mainnet-rpc.autostake.com:443",
-        "provider": "AutoStake | Delegate for StakeDrops"
-      },
-      {
         "address": "https://rpc.celestia.validatus.com",
         "provider": "Validatus"
-      },
-      {
-        "address": "https://celestia-rpc.sr20de.xyz",
-        "provider": "Sr20de"
-      },
-      {
-        "address": "https://rpc-celestia-full.avril14th.org",
-        "provider": "Avril 14th"
-      },
-      {
-        "address": "https://rpc.freshstaking.com/celestia",
-        "provider": "FreshSTAKING"
       },
       {
         "address": "https://celestia.cumulo.org.es/",
         "provider": "Cumulo"
       },
       {
-        "address": "https://celestia-rpc.stake-town.com",
-        "provider": "StakeTown"
-      },
-      {
-        "address": "https://rpc.celestia-app.bronbro.io",
-        "provider": "Bro_n_Bro"
-      },
-      {
         "address": "https://celestia-rpc.noders.services",
         "provider": "[NODERS]TEAM"
-      },
-      {
-        "address": "https://rpc.celestia.citizenweb3.com",
-        "provider": "Citizen Web3"
       },
       {
         "address": "https://celestia-mainnet-rpc.itrocket.net",
@@ -317,10 +257,6 @@
       {
         "address": "https://rpc.celestia.mainnet.dteam.tech:443",
         "provider": "DTEAM"
-      },
-      {
-        "address": "https://celestia-rpc.stakeandrelax.net",
-        "provider": "Stake&Relax Validator 🦥"
       },
       {
         "address": "https://rpc.celestia.node75.org",
@@ -332,22 +268,7 @@
       }
     ],
     "rest": [
-      {
-        "address": "https://public-celestia-lcd.numia.xyz",
-        "provider": "Numia"
-      },
-      {
-        "address": "https://celestia-rest.mesa.newmetric.xyz",
-        "provider": "Newmetric"
-      },
-      {
-        "address": "http://celestia.rpc.nodersteam.com:1617",
-        "provider": "[NODERS]TEAM"
-      },
-      {
-        "address": "https://api.lunaroasis.net",
-        "provider": "Lunar Oasis"
-      },
+      
       {
         "address": "https://api.celestia.nodestake.org",
         "provider": "NodeStake"
@@ -355,18 +276,6 @@
       {
         "address": "https://rest.lavenderfive.com:443/celestia",
         "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "https://api-celestia-01.stakeflow.io",
-        "provider": "Stakeflow"
-      },
-      {
-        "address": "https://api-celestia.cosmos-spaces.cloud",
-        "provider": "Cosmos Spaces"
-      },
-      {
-        "address": "https://celestia.rest.interchain.validao.xyz",
-        "provider": "ValiDAO"
       },
       {
         "address": "https://celestia-rest.publicnode.com",
@@ -381,44 +290,12 @@
         "provider": "kjnodes"
       },
       {
-        "address": "https://api-celestia.mzonder.com",
-        "provider": "MZONDER"
-      },
-      {
-        "address": "https://celestia-lcd.enigma-validator.com",
-        "provider": "Enigma"
-      },
-      {
-        "address": "https://rest-celestia.theamsolutions.info",
-        "provider": "AM Solutions"
-      },
-      {
         "address": "https://api.celestia.validatus.com",
         "provider": "Validatus"
       },
       {
-        "address": "https://celestia-api.sr20de.xyz",
-        "provider": "Sr20de"
-      },
-      {
-        "address": "https://celestia-mainnet-lcd.autostake.com:443",
-        "provider": "AutoStake | Delegate for StakeDrops"
-      },
-      {
-        "address": "https://api-celestia-full.avril14th.org",
-        "provider": "Avril 14th"
-      },
-      {
         "address": "https://celestia.api.cumulo.org.es",
         "provider": "Cumulo"
-      },
-      {
-        "address": "https://celestia-api.stake-town.com",
-        "provider": "StakeTown"
-      },
-      {
-        "address": "https://lcd.celestia-app.bronbro.io",
-        "provider": "Bro_n_Bro"
       },
       {
         "address": "https://celestia-api.noders.services",
@@ -431,10 +308,6 @@
       {
         "address": "https://api.celestia.mainnet.dteam.tech:443",
         "provider": "DTEAM"
-      },
-      {
-        "address": "https://celestia-api.stakeandrelax.net",
-        "provider": "Stake&Relax Validator 🦥"
       },
       {
         "address": "https://api.celestia.node75.org",
@@ -451,28 +324,8 @@
         "provider": "NodeStake"
       },
       {
-        "address": "celestia-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake | Delegate for StakeDrops"
-      },
-      {
         "address": "celestia.lavenderfive.com:443",
         "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "celestia.grpc.nodersteam.com:9690",
-        "provider": "[NODERS]TEAM"
-      },
-      {
-        "address": "grpc-celestia-01.stakeflow.io:15002",
-        "provider": "Stakeflow"
-      },
-      {
-        "address": "grpc-celestia.cosmos-spaces.cloud:443",
-        "provider": "Cosmos Spaces"
-      },
-      {
-        "address": "celestia.grpc.interchain.validao.xyz:443",
-        "provider": "ValiDAO"
       },
       {
         "address": "celestia-grpc.publicnode.com:443",
@@ -483,64 +336,16 @@
         "provider": "Stakin"
       },
       {
-        "address": "celestia.grpc.kjnodes.com:443",
-        "provider": "kjnodes"
-      },
-      {
-        "address": "grpc-celestia.mzonder.com:443",
-        "provider": "MZONDER"
-      },
-      {
-        "address": "grpc-celestia.theamsolutions.info:443",
-        "provider": "AM Solutions"
-      },
-      {
         "address": "grpc.celestia.validatus.com:443",
         "provider": "Validatus"
-      },
-      {
-        "address": "celestia-grpc.sr20de.xyz",
-        "provider": "Sr20de"
-      },
-      {
-        "address": "grpc-celestia-full.avril14th.org",
-        "provider": "Avril 14th"
       },
       {
         "address": "celestia.grpc.cumulo.org.es",
         "provider": "Cumulo"
       },
       {
-        "address": "https://celestia-grpc.stake-town.com",
-        "provider": "StakeTown"
-      },
-      {
-        "address": "grpc.celestia-app.bronbro.io:443",
-        "provider": "Bro_n_Bro"
-      },
-      {
-        "address": "celestia-grpc.noders.services:11090",
-        "provider": "[NODERS]TEAM"
-      },
-      {
         "address": "celestia-mainnet-grpc.itrocket.net:443",
         "provider": "itrocket"
-      },
-      {
-        "address": "grpc.celestia.mainnet.dteam.tech:28090",
-        "provider": "DTEAM"
-      },
-      {
-        "address": "http://celestia-grpc.stakeandrelax.net:11690",
-        "provider": "Stake&Relax Validator 🦥"
-      },
-      {
-        "address": "grpc.celestia.node75.org:9220",
-        "provider": "Pro-Nodes75"
-      },
-      {
-        "address": "grpc.archive.celestia.validatus.com:2125",
-        "provider": "Validatus"
       }
     ]
   },
