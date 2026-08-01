@@ -21,7 +21,7 @@ jobs:
       - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.3
         with:
           registry: .
-          chains: juno,akash,stride,kujira,archway,dymension,celestia,neutron,evmos,umee,quasar,stargaze
+          chains: juno,akash,stride,kujira,archway,dymension,celestia,neutron,migaloo,sge,rebus,quasar
           state-branch: sentinel-state
           pr-cooldown-days: 3
           chain-death-min-runs: 5
