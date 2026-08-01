@@ -264,14 +264,6 @@
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
-        "address": "https://stride-mainnet-rpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://stride-rpc.publicnode.com:443",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
         "address": "https://stride-rpc.stakeandrelax.net",
         "provider": "Stake&Relax 🦥"
       },
@@ -296,14 +288,6 @@
       {
         "address": "https://rest.lavenderfive.com:443/stride",
         "provider": "Lavender.Five Nodes 🐝"
-      },
-      {
-        "address": "https://stride-mainnet-lcd.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "https://stride-rest.publicnode.com",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
       },
       {
         "address": "https://stride-api.stakeandrelax.net",
@@ -332,20 +316,8 @@
         "provider": "Lavender.Five Nodes 🐝"
       },
       {
-        "address": "stride-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "stride-grpc.publicnode.com:443",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
         "address": "stride-grpc.stakeandrelax.net:12290",
         "provider": "Stake&Relax 🦥"
-      },
-      {
-        "address": "https://grpc.stride.bronbro.io:443",
-        "provider": "Bro_n_Bro"
       },
       {
         "address": "grpc.stride.citizenweb3.com:443",
