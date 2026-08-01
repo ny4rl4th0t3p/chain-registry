@@ -261,10 +261,6 @@
         "provider": "Allnodes ⚡️ Nodes & Staking"
       },
       {
-        "address": "https://akash.rpc.arcturian.tech/",
-        "provider": "Arcturian Tech"
-      },
-      {
         "address": "https://akash.api.pocket.network",
         "provider": "Pocket Network"
       },
@@ -301,14 +297,6 @@
       {
         "address": "https://akash-rest.publicnode.com",
         "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
-        "address": "https://akash-api.validatornode.com",
-        "provider": "ValidatorNode"
-      },
-      {
-        "address": "https://akash.api.arcturian.tech",
-        "provider": "Arcturian Tech"
       },
       {
         "address": "https://akash.api.pocket.network",
