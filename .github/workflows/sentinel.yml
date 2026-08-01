@@ -18,7 +18,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.2
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.3
         with:
           registry: .
           chains: juno,akash,stride,kujira,archway,dymension,celestia,neutron,evmos,umee,quasar,stargaze
