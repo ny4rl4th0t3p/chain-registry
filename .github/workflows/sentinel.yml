@@ -1,0 +1,31 @@
+# .github/workflows/sentinel.yml
+name: sentinel
+
+on:
+  schedule:
+    - cron: '00 6,12,18 * * *'
+      timezone: "Europe/Paris"
+  workflow_dispatch:
+
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sentinel:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ny4rl4th0t3p/chain-registry-sentinel@v0.8.2
+        with:
+          registry: .
+          chains: juno,akash,stride,kujira,archway,dymension,celestia,neutron,evmos,umee,quasar,stargaze
+          state-branch: sentinel-state
+          pr-cooldown-days: 3
+          chain-death-min-runs: 5
+          max-status-prs: 10
+          min-failures: 3
+          max-endpoint-prs: 15
+          github-token: ${{ secrets.GITHUB_TOKEN }}
