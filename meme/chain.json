@@ -96,47 +96,16 @@
       {
         "address": "https://rpc-meme-1.meme.sx/",
         "provider": "MEME Foundation"
-      },
-      {
-        "address": "https://meme-rpc.polkachu.com/",
-        "provider": "Polkachu"
-      },
-      {
-        "address": "https://rpc-meme.pupmos.network/",
-        "provider": "PUPMØS"
-      },
-      {
-        "address": "https://meme.rpc.m.anode.team",
-        "provider": "ANODE TEAM"
       }
     ],
     "rest": [
       {
         "address": "https://api-meme-1.meme.sx/",
         "provider": "MEME Foundation"
-      },
-      {
-        "address": "https://meme-api.polkachu.com/",
-        "provider": "Polkachu"
-      },
-      {
-        "address": "https://api-meme.pupmos.network/",
-        "provider": "PUPMØS"
-      },
-      {
-        "address": "https://meme.api.m.anode.team",
-        "provider": "ANODE TEAM"
-      },
-      {
-        "address": "https://meme.api.m.stavr.tech",
-        "provider": "🔥STAVR🔥"
       }
     ],
     "grpc": [
-      {
-        "address": "meme-grpc.polkachu.com:14790",
-        "provider": "Polkachu"
-      }
+      
     ]
   },
   "explorers": [
