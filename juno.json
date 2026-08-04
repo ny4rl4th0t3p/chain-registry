@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "juno-1",
-  "updated_at": "2026-08-04T06:32:19.72645656Z",
+  "updated_at": "2026-08-04T12:05:21.72543188Z",
   "last_pr_opened_at": "2026-08-01T18:43:13.214919367Z",
   "last_hash_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
@@ -10,7 +10,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Validatus"
     },
@@ -19,26 +19,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cogwheel"
     },
     "grpc_liveness|juno-grpc.polkachu.com:12690": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: context deadline exceeded\"",
-      "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: context deadline exceeded\"",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
-      "first_failure_time": "2026-08-04T06:32:19.72645656Z",
-      "provider": "Polkachu",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Polkachu"
     },
     "grpc_liveness|juno-grpc.publicnode.com:443": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -47,7 +46,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stake\u0026Relax Validator 🦥"
     },
@@ -56,16 +55,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "🔥STAVR🔥"
     },
     "grpc_liveness|juno.lavenderfive.com:443": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Lavender.Five Nodes 🐝",
       "failure_class": "grpc_unavailable"
@@ -75,7 +74,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Validatus"
     },
@@ -84,7 +83,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cogwheel"
     },
@@ -93,26 +92,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Kleomedes"
     },
     "rest_liveness|https://juno-api.polkachu.com": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://juno-api.polkachu.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "first_evidence": "Get \"https://juno-api.polkachu.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
-      "first_failure_time": "2026-08-04T06:32:19.72645656Z",
-      "provider": "Polkachu",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Polkachu"
     },
     "rest_liveness|https://juno-api.stake-town.com": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "Get \"https://juno-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup juno-api.stake-town.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://juno-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup juno-api.stake-town.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "StakeTown",
       "failure_class": "dns_nxdomain"
@@ -122,7 +120,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stake\u0026Relax Validator 🦥"
     },
@@ -131,7 +129,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -140,7 +138,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "🔥STAVR🔥"
     },
@@ -149,16 +147,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/juno": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "HTTP 503: \u003chtml\u003e\u003cbody\u003e\u003ch1\u003e503 Service Unavailable\u003c/h1\u003e No server is available to handle this request. \u003c/body\u003e\u003c/html\u003e",
       "first_evidence": "HTTP 503: \u003chtml\u003e\u003cbody\u003e\u003ch1\u003e503 Service Unavailable\u003c/h1\u003e No server is available to handle this request. \u003c/body\u003e\u003c/html\u003e",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Lavender.Five Nodes 🐝",
       "failure_class": "gateway_no_backend",
@@ -169,7 +167,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cogwheel"
     },
@@ -178,35 +176,34 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Kleomedes"
     },
     "rpc_liveness|https://juno-rpc.polkachu.com:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://juno-rpc.polkachu.com:443/status\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "first_evidence": "Get \"https://juno-rpc.polkachu.com:443/status\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
-      "first_failure_time": "2026-08-04T06:32:19.72645656Z",
-      "provider": "Polkachu",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Polkachu"
     },
     "rpc_liveness|https://juno-rpc.publicnode.com:443": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "rpc_liveness|https://juno-rpc.stake-town.com": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "Get \"https://juno-rpc.stake-town.com/status\": dial tcp: lookup juno-rpc.stake-town.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://juno-rpc.stake-town.com/status\": dial tcp: lookup juno-rpc.stake-town.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "StakeTown",
       "failure_class": "dns_nxdomain"
@@ -216,7 +213,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stake\u0026Relax Validator 🦥"
     },
@@ -225,7 +222,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
@@ -234,7 +231,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "🔥STAVR🔥"
     },
@@ -243,16 +240,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Validatus"
     },
     "rpc_liveness|https://rpc.lavenderfive.com:443/juno": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "HTTP 503: \u003chtml\u003e\u003cbody\u003e\u003ch1\u003e503 Service Unavailable\u003c/h1\u003e No server is available to handle this request. \u003c/body\u003e\u003c/html\u003e",
       "first_evidence": "HTTP 503: \u003chtml\u003e\u003cbody\u003e\u003ch1\u003e503 Service Unavailable\u003c/h1\u003e No server is available to handle this request. \u003c/body\u003e\u003c/html\u003e",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Lavender.Five Nodes 🐝",
       "failure_class": "gateway_no_backend",

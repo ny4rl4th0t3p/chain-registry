@@ -1,26 +1,25 @@
 {
   "version": 1,
   "chain_id": "akashnet-2",
-  "updated_at": "2026-08-04T06:32:19.72645656Z",
+  "updated_at": "2026-08-04T12:05:21.72543188Z",
   "last_pr_opened_at": "2026-08-01T18:43:13.214919367Z",
   "last_hash_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
     "grpc_liveness|akash-grpc.polkachu.com:12890": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: context deadline exceeded\"",
-      "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: context deadline exceeded\"",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
-      "first_failure_time": "2026-08-04T06:32:19.72645656Z",
-      "provider": "Polkachu",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Polkachu"
     },
     "grpc_liveness|akash-grpc.publicnode.com:443": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -29,7 +28,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     },
@@ -38,26 +37,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Kleomedes"
     },
     "rest_liveness|https://akash-api.polkachu.com": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://akash-api.polkachu.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "first_evidence": "Get \"https://akash-api.polkachu.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
-      "first_failure_time": "2026-08-04T06:32:19.72645656Z",
-      "provider": "Polkachu",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Polkachu"
     },
     "rest_liveness|https://akash-api.validatornode.com": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "Get \"https://akash-api.validatornode.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
       "first_evidence": "Get \"https://akash-api.validatornode.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "ValidatorNode",
       "failure_class": "timeout"
@@ -67,7 +65,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cosmonaut Stakes"
     },
@@ -76,16 +74,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "rest_liveness|https://akash.api.arcturian.tech": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "Get \"https://akash.api.arcturian.tech/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 45.140.185.95:443: connect: connection refused",
       "first_evidence": "Get \"https://akash.api.arcturian.tech/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 45.140.185.95:443: connect: connection refused",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Arcturian Tech",
       "failure_class": "conn_refused"
@@ -95,7 +93,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
@@ -104,7 +102,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "c29r3"
     },
@@ -113,7 +111,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "QUAD"
     },
@@ -122,7 +120,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "ecostake"
     },
@@ -131,7 +129,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cosmonaut Stakes"
     },
@@ -140,26 +138,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Kleomedes"
     },
     "rpc_liveness|https://akash-rpc.polkachu.com:443": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "Get \"https://akash-rpc.polkachu.com:443/status\": context deadline exceeded",
-      "first_evidence": "Get \"https://akash-rpc.polkachu.com:443/status\": context deadline exceeded",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
-      "first_failure_time": "2026-08-04T06:32:19.72645656Z",
-      "provider": "Polkachu",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Polkachu"
     },
     "rpc_liveness|https://akash-rpc.publicnode.com:443": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -168,16 +165,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
     "rpc_liveness|https://akash.rpc.arcturian.tech/": {
-      "consecutive_failures": 15,
+      "consecutive_failures": 16,
       "last_passed": false,
       "last_evidence": "Get \"https://akash.rpc.arcturian.tech/status\": dial tcp 45.140.185.95:443: connect: connection refused",
       "first_evidence": "Get \"https://akash.rpc.arcturian.tech/status\": dial tcp 45.140.185.95:443: connect: connection refused",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Arcturian Tech",
       "failure_class": "conn_refused"
@@ -187,7 +184,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "QUAD"
     },
@@ -196,7 +193,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-08-04T06:32:19.72645656Z",
+      "last_checked": "2026-08-04T12:05:21.72543188Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "ecostake"
     }
