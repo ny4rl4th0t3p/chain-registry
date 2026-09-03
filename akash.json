@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "akashnet-2",
-  "updated_at": "2026-09-03T08:44:59.430563287Z",
+  "updated_at": "2026-09-03T14:16:09.584300061Z",
   "last_pr_opened_at": "2026-08-01T18:43:13.214919367Z",
   "last_hash_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
@@ -10,7 +10,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -19,7 +19,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -28,7 +28,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     },
@@ -37,7 +37,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Kleomedes"
     },
@@ -46,16 +46,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
     "rest_liveness|https://akash-api.validatornode.com": {
-      "consecutive_failures": 99,
+      "consecutive_failures": 100,
       "last_passed": false,
       "last_evidence": "Get \"https://akash-api.validatornode.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
       "first_evidence": "Get \"https://akash-api.validatornode.com/cosmos/base/tendermint/v1beta1/node_info\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "ValidatorNode",
       "failure_class": "timeout"
@@ -65,7 +65,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cosmonaut Stakes"
     },
@@ -74,16 +74,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "rest_liveness|https://akash.api.arcturian.tech": {
-      "consecutive_failures": 99,
+      "consecutive_failures": 100,
       "last_passed": false,
       "last_evidence": "Get \"https://akash.api.arcturian.tech/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup akash.api.arcturian.tech on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://akash.api.arcturian.tech/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 45.140.185.95:443: connect: connection refused",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Arcturian Tech",
       "failure_class": "dns_nxdomain"
@@ -93,7 +93,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
@@ -102,7 +102,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "c29r3"
     },
@@ -111,7 +111,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "QUAD"
     },
@@ -120,7 +120,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "ecostake"
     },
@@ -129,7 +129,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Cosmonaut Stakes"
     },
@@ -138,7 +138,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Kleomedes"
     },
@@ -147,7 +147,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -156,7 +156,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -165,16 +165,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
     "rpc_liveness|https://akash.rpc.arcturian.tech/": {
-      "consecutive_failures": 99,
+      "consecutive_failures": 100,
       "last_passed": false,
       "last_evidence": "Get \"https://akash.rpc.arcturian.tech/status\": dial tcp: lookup akash.rpc.arcturian.tech on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://akash.rpc.arcturian.tech/status\": dial tcp 45.140.185.95:443: connect: connection refused",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "2026-08-01T17:54:26.053476276Z",
       "provider": "Arcturian Tech",
       "failure_class": "dns_nxdomain"
@@ -184,7 +184,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "QUAD"
     },
@@ -193,7 +193,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-03T08:44:59.430563287Z",
+      "last_checked": "2026-09-03T14:16:09.584300061Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "ecostake"
     }
