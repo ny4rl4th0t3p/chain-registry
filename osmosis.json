@@ -1,16 +1,16 @@
 {
   "version": 1,
   "chain_id": "osmosis-1",
-  "updated_at": "2026-09-06T18:08:49.089421897Z",
-  "last_pr_opened_at": "0001-01-01T00:00:00Z",
+  "updated_at": "2026-09-07T09:07:59.285607432Z",
+  "last_pr_opened_at": "2026-09-07T09:07:59.285607432Z",
   "last_hash_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
     "grpc_liveness|grpc-osmosis-01.stakeflow.io:6754": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "Stakeflow",
       "failure_class": "dns_nxdomain"
@@ -20,7 +20,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Citizen Web3"
     },
@@ -29,7 +29,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Validatus"
     },
@@ -38,7 +38,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -47,16 +47,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "grpc_liveness|osmosis-grpc.stake-town.com:443": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "StakeTown",
       "failure_class": "dns_nxdomain"
@@ -66,7 +66,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakin"
     },
@@ -75,7 +75,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     },
@@ -84,7 +84,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Citizen Web3"
     },
@@ -93,7 +93,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Validatus"
     },
@@ -102,7 +102,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Osmosis Foundation"
     },
@@ -111,36 +111,34 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "High Stakes 🇨🇭"
     },
     "rest_liveness|https://osmosis-api.noders.services": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "HTTP 502: \u003chtml\u003e  \u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e  \u003cbody\u003e  \u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e  \u003chr\u003e\u003ccenter\u003enginx/1.31.2\u003c/center\u003e  \u003c/body\u003e  \u003c/html\u003e",
-      "first_evidence": "HTTP 502: \u003chtml\u003e  \u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e  \u003cbody\u003e  \u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e  \u003chr\u003e\u003ccenter\u003enginx/1.31.2\u003c/center\u003e  \u003c/body\u003e  \u003c/html\u003e",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
-      "first_failure_time": "2026-09-06T18:08:49.089421897Z",
-      "provider": "[NODERS]TEAM",
-      "failure_class": "gateway_no_backend",
-      "http_status": 502
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "[NODERS]TEAM"
     },
     "rest_liveness|https://osmosis-api.polkachu.com": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
     "rest_liveness|https://osmosis-api.stake-town.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://osmosis-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup osmosis-api.stake-town.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://osmosis-api.stake-town.com/cosmos/base/tendermint/v1beta1/node_info\": dial tcp: lookup osmosis-api.stake-town.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "StakeTown",
       "failure_class": "dns_nxdomain"
@@ -150,7 +148,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
@@ -159,7 +157,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
@@ -168,26 +166,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakin"
     },
     "rest_liveness|https://osmosis.rpc.uquad.org:443": {
-      "consecutive_failures": 2,
-      "last_passed": false,
-      "last_evidence": "Get \"https://osmosis.rpc.uquad.org:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 104.194.11.50:443: i/o timeout",
-      "first_evidence": "Get \"https://osmosis.rpc.uquad.org:443/cosmos/base/tendermint/v1beta1/node_info\": dial tcp 104.194.11.50:443: i/o timeout",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
-      "first_failure_time": "2026-09-06T14:38:04.150774382Z",
-      "provider": "QUAD",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "QUAD"
     },
     "rest_liveness|https://public.stakewolle.com/cosmos/osmosis/rest": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T14:38:04.150774382Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakewolle"
     },
@@ -196,35 +193,34 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "ecostake"
     },
     "rest_liveness|https://rest.cros-nest.com/osmosis": {
-      "consecutive_failures": 2,
-      "last_passed": false,
-      "last_evidence": "Get \"https://rest.cros-nest.com/osmosis/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded",
-      "first_evidence": "Get \"https://rest.cros-nest.com/osmosis/cosmos/base/tendermint/v1beta1/node_info\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
-      "first_failure_time": "2026-09-06T14:38:04.150774382Z",
-      "provider": "Crosnest",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "Crosnest"
     },
     "rest_liveness|https://rest.lavenderfive.com:443/osmosis": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     },
     "rest_liveness|https://rest.osmosis.goldenratiostaking.net": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 502: error code: 502",
       "first_evidence": "HTTP 502: error code: 502",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "Golden Ratio Staking",
       "failure_class": "gateway_no_backend",
@@ -235,7 +231,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "FreshSTAKING"
     },
@@ -244,27 +240,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "High Stakes 🇨🇭"
     },
     "rpc_liveness|https://osmosis-rpc.noders.services": {
-      "consecutive_failures": 1,
-      "last_passed": false,
-      "last_evidence": "HTTP 502: \u003chtml\u003e  \u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e  \u003cbody\u003e  \u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e  \u003chr\u003e\u003ccenter\u003enginx/1.31.2\u003c/center\u003e  \u003c/body\u003e  \u003c/html\u003e",
-      "first_evidence": "HTTP 502: \u003chtml\u003e  \u003chead\u003e\u003ctitle\u003e502 Bad Gateway\u003c/title\u003e\u003c/head\u003e  \u003cbody\u003e  \u003ccenter\u003e\u003ch1\u003e502 Bad Gateway\u003c/h1\u003e\u003c/center\u003e  \u003chr\u003e\u003ccenter\u003enginx/1.31.2\u003c/center\u003e  \u003c/body\u003e  \u003c/html\u003e",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
-      "first_failure_time": "2026-09-06T18:08:49.089421897Z",
-      "provider": "[NODERS]TEAM",
-      "failure_class": "gateway_no_backend",
-      "http_status": 502
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "[NODERS]TEAM"
     },
     "rpc_liveness|https://osmosis-rpc.polkachu.com:443": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -273,16 +267,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "rpc_liveness|https://osmosis-rpc.stake-town.com": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "Get \"https://osmosis-rpc.stake-town.com/status\": dial tcp: lookup osmosis-rpc.stake-town.com on 168.63.129.16:53: no such host",
       "first_evidence": "Get \"https://osmosis-rpc.stake-town.com/status\": dial tcp: lookup osmosis-rpc.stake-town.com on 168.63.129.16:53: no such host",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "StakeTown",
       "failure_class": "dns_nxdomain"
@@ -292,7 +286,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Pocket Network"
     },
@@ -301,26 +295,25 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakin"
     },
     "rpc_liveness|https://osmosis.rpc.uquad.org:443": {
-      "consecutive_failures": 2,
-      "last_passed": false,
-      "last_evidence": "Get \"https://osmosis.rpc.uquad.org:443/status\": dial tcp 104.194.11.50:443: i/o timeout",
-      "first_evidence": "Get \"https://osmosis.rpc.uquad.org:443/status\": dial tcp 104.194.11.50:443: i/o timeout",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
-      "first_failure_time": "2026-09-06T14:38:04.150774382Z",
-      "provider": "QUAD",
-      "failure_class": "timeout"
+      "consecutive_failures": 0,
+      "last_passed": true,
+      "last_evidence": "",
+      "first_evidence": "",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
+      "first_failure_time": "0001-01-01T00:00:00Z",
+      "provider": "QUAD"
     },
     "rpc_liveness|https://public.stakewolle.com/cosmos/osmosis/rpc": {
       "consecutive_failures": 0,
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakewolle"
     },
@@ -329,16 +322,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "ecostake"
     },
     "rpc_liveness|https://rpc.cros-nest.com/osmosis": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "last_passed": false,
-      "last_evidence": "Get \"https://rpc.cros-nest.com/osmosis/status\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
+      "last_evidence": "Get \"https://rpc.cros-nest.com/osmosis/status\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)",
       "first_evidence": "Get \"https://rpc.cros-nest.com/osmosis/status\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T18:08:49.089421897Z",
       "provider": "Crosnest",
       "failure_class": "timeout"
@@ -348,7 +341,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     },
@@ -357,16 +350,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Citizen Web3"
     },
     "rpc_liveness|https://rpc.osmosis.goldenratiostaking.net": {
-      "consecutive_failures": 2,
+      "consecutive_failures": 3,
       "last_passed": false,
       "last_evidence": "HTTP 502: error code: 502",
       "first_evidence": "HTTP 502: error code: 502",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "Golden Ratio Staking",
       "failure_class": "gateway_no_backend",
@@ -377,7 +370,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Validatus"
     },
@@ -386,7 +379,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-06T18:08:49.089421897Z",
+      "last_checked": "2026-09-07T09:07:59.285607432Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Osmosis Foundation"
     }
