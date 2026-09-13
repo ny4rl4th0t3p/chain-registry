@@ -1,7 +1,7 @@
 {
   "version": 1,
   "chain_id": "injective-1",
-  "updated_at": "2026-09-12T18:14:47.180276098Z",
+  "updated_at": "2026-09-13T09:20:07.892470718Z",
   "last_pr_opened_at": "2026-09-07T09:07:59.285607432Z",
   "last_hash_pr_opened_at": "0001-01-01T00:00:00Z",
   "endpoints": {
@@ -10,7 +10,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Decentrio"
     },
@@ -19,36 +19,36 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "injectivelabs.org"
     },
     "grpc_liveness|grpc.injective.bronbro.io:443": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: tls: failed to verify certificate: x509: certificate is valid for api.gluceradisplay.co.uk, not grpc.injective.bronbro.io\"",
       "first_evidence": "rpc error: code = Unavailable desc = connection error: desc = \"transport: authentication handshake failed: tls: failed to verify certificate: x509: certificate is valid for api.gluceradisplay.co.uk, not grpc.injective.bronbro.io\"",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "Bro_n_Bro",
       "failure_class": "tls_hostname"
     },
     "grpc_liveness|https://injective-grpc.highstakes.ch": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unknown desc = unexpected HTTP status code received from server: 0 (); malformed header: missing HTTP content-type",
       "first_evidence": "rpc error: code = Unknown desc = unexpected HTTP status code received from server: 0 (); malformed header: missing HTTP content-type",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "High Stakes 🇨🇭",
       "failure_class": "grpc_other"
     },
     "grpc_liveness|injective-grpc.noders.services:33090": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
       "first_evidence": "rpc error: code = Unavailable desc = name resolver error: produced zero addresses",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "[NODERS]TEAM",
       "failure_class": "dns_nxdomain"
@@ -58,7 +58,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -67,26 +67,26 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "grpc_liveness|injective-mainnet-grpc.autostake.com:443": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html; charset=UTF-8\"",
       "first_evidence": "rpc error: code = PermissionDenied desc = unexpected HTTP status code received from server: 403 (Forbidden); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "AutoStake 🛡️ Slash Protected",
       "failure_class": "grpc_permission_denied"
     },
     "grpc_liveness|injective.lavenderfive.com:443": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
       "first_evidence": "rpc error: code = Unavailable desc = unexpected HTTP status code received from server: 503 (Service Unavailable); transport: received unexpected content-type \"text/html\"",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "Lavender.Five Nodes 🐝",
       "failure_class": "grpc_unavailable"
@@ -96,7 +96,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "High Stakes 🇨🇭"
     },
@@ -105,7 +105,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -114,16 +114,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "rest_liveness|https://injective.rpc.uquad.org:443": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "HTTP 401: {   \"status\": \"denied\",   \"reason\": \"missing_api_key\" }",
       "first_evidence": "HTTP 401: {   \"status\": \"denied\",   \"reason\": \"missing_api_key\" }",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "QUAD",
       "failure_class": "http_401",
@@ -134,7 +134,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakewolle"
     },
@@ -143,7 +143,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     },
@@ -152,7 +152,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "High Stakes 🇨🇭"
     },
@@ -161,7 +161,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Polkachu"
     },
@@ -170,16 +170,16 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Allnodes ⚡️ Nodes \u0026 Staking"
     },
     "rpc_liveness|https://injective.rpc.uquad.org:443": {
-      "consecutive_failures": 20,
+      "consecutive_failures": 21,
       "last_passed": false,
       "last_evidence": "HTTP 401: {   \"status\": \"denied\",   \"reason\": \"missing_api_key\" }",
       "first_evidence": "HTTP 401: {   \"status\": \"denied\",   \"reason\": \"missing_api_key\" }",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "2026-09-06T14:38:04.150774382Z",
       "provider": "QUAD",
       "failure_class": "http_401",
@@ -190,7 +190,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Stakewolle"
     },
@@ -199,7 +199,7 @@
       "last_passed": true,
       "last_evidence": "",
       "first_evidence": "",
-      "last_checked": "2026-09-12T18:14:47.180276098Z",
+      "last_checked": "2026-09-13T09:20:07.892470718Z",
       "first_failure_time": "0001-01-01T00:00:00Z",
       "provider": "Lavender.Five Nodes 🐝"
     }
