@@ -95,52 +95,16 @@
   },
   "apis": {
     "rpc": [
-      {
-        "address": "https://migaloo-rpc.polkachu.com:443",
-        "provider": "Polkachu"
-      },
-      {
-        "address": "https://migaloo-rpc.kleomedes.network:443",
-        "provider": "Kleomedes"
-      },
-      {
-        "address": "https://migaloo-rpc.publicnode.com:443",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      }
+      
     ],
     "rest": [
-      {
-        "address": "https://migaloo-api.polkachu.com:443",
-        "provider": "Polkachu"
-      },
-      {
-        "address": "https://migaloo-api.kleomedes.network:443",
-        "provider": "Kleomedes"
-      },
-      {
-        "address": "https://migaloo-rest.publicnode.com",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      }
+      
     ],
     "grpc": [
-      {
-        "address": "migaloo-grpc.polkachu.com:20790",
-        "provider": "Polkachu"
-      },
-      {
-        "address": "whitewhale-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
-        "address": "migaloo-grpc.publicnode.com:443",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      }
+      
     ],
     "grpc-web": [
-      {
-        "address": "https://migaloo-grpc-web.publicnode.com",
-        "provider": "Allnodes ⚡️ Nodes & Staking"
-      }
+      
     ]
   },
   "explorers": [
