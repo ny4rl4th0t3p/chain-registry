@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "migaloo",
-  "status": "live",
+  "status": "killed",
   "network_type": "mainnet",
   "website": "https://www.whitewhale.money/",
   "pretty_name": "Migaloo",
