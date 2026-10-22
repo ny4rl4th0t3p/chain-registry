@@ -188,10 +188,6 @@
         "provider": "Stakewolle"
       },
       {
-        "address": "https://injective.rpc.uquad.org:443",
-        "provider": "QUAD"
-      },
-      {
         "address": "https://injective-rpc.polkachu.com:443",
         "provider": "Polkachu"
       }
@@ -216,10 +212,6 @@
       {
         "address": "https://public.stakewolle.com/cosmos/injective/rest",
         "provider": "Stakewolle"
-      },
-      {
-        "address": "https://injective.rpc.uquad.org:443",
-        "provider": "QUAD"
       }
     ],
     "grpc": [
@@ -232,24 +224,8 @@
         "provider": "Polkachu"
       },
       {
-        "address": "injective-mainnet-grpc.autostake.com:443",
-        "provider": "AutoStake 🛡️ Slash Protected"
-      },
-      {
         "address": "injective-grpc.publicnode.com:443",
         "provider": "Allnodes ⚡️ Nodes & Staking"
-      },
-      {
-        "address": "grpc.injective.bronbro.io:443",
-        "provider": "Bro_n_Bro"
-      },
-      {
-        "address": "injective-grpc.noders.services:33090",
-        "provider": "[NODERS]TEAM"
-      },
-      {
-        "address": "https://injective-grpc.highstakes.ch",
-        "provider": "High Stakes 🇨🇭"
       }
     ],
     "evm-http-jsonrpc": [
