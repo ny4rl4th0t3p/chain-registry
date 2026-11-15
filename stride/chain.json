@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "stride",
-  "status": "live",
+  "status": "killed",
   "network_type": "mainnet",
   "website": "https://stride.zone/",
   "pretty_name": "Stride",
